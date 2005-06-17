@@ -11,3 +11,5 @@
 #	[<whitespace>]<filename>[<whitespace><error message>]<end-of-line>
 #
 # comment lines begin with '#'
+syncmail  Wont be able to push syncmail script (tikiwiki-cvs delivery)
+ciabot.pl    Wont be able to push ciabot script (irc channel delivery)
