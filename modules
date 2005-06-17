@@ -33,13 +33,11 @@
 # DB Abstraction Layer
 # licence LGPL + BSD
 #_adodb		_adodb
-_adodb    -d kernel/adodb _adodb
 _l_adodb   -d util/adodb _adodb
 
 # http://smarty.php.net
 # template and cache engine
 # Licence LGPL
-_smarty  -d kernel/smarty _smarty
 _l_smarty  -d util/smarty _smarty
 
 
@@ -156,20 +154,13 @@ _bit_xmlrpc -d xmlrpc _bit_xmlrpc
 sample &_bit_sample
 
 # modules for each release
-#-#-# Release 2 - "BONNIE"
-bonnie _root &_bit_articles &_bit_backups &_bit_banners &_bit_blogs &_bit_calendar &_bit_categories &_bit_charts &_bit_chat &_bit_dcs &_bit_debug &_bit_directory &_bit_doc &_bit_drawings &_bit_ephemerides &_bit_faqs &_bit_featured_links &_bit_filegals &_bit_Galaxia &_bit_games &_bit_google &_bit_hawhaw &_bit_hotwords &_bit_html &_bit_imagegals &_bit_img &_bit_install &_bit_integrator &_bit_irc &_bit_kernel &_bit_languages &_bit_live_support &_bit_maps &_bit_messu &_bit_minical &_bit_movies &_bit_newsletters &_bit_newsreader &_bit_notepad &_bit_pdf &_bit_polls &_bit_quicktags &_bit_quizzes &_bit_rss &_bit_search &_bit_shoutbox &_bit_smileys &_bit_snoopy &_bit_stats &_bit_storage &_bit_structures &_bit_surveys &_bit_tabs &_bit_taglines &_bit_tail &_bit_temp &_bit_themes &_bit_tikibot &_bit_tikiforums &_bit_tikihelp &_bit_trackers &_bit_tree &_bit_users &_bit_util &_bit_webmail &_bit_wiki &_bit_xmlrpc &_phpbb &_phplayers &_jscalendar &_l_adodb &_l_smarty
-
-#-#-# Release 3 - "CLYDE"
-clyde    _root &_bit_blogs &_bit_liberty &_bit_categories &_bit_doc &_bit_fisheye &_bit_gatekeeper &_bit_google &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_messu &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_search &_bit_nexus &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_p_tinymce &_bit_tree &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_jscalendar &_phpbb &_gallery2 &_l_adodb &_l_smarty 
+#-#-# Release 1 - "CLYDE"
+releaseone    _root &_bit_blogs &_bit_liberty &_bit_categories &_bit_doc &_bit_fisheye &_bit_gatekeeper &_bit_google &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_messu &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_search &_bit_nexus &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_p_tinymce &_bit_tree &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_jscalendar &_phpbb &_gallery2 &_l_adodb &_l_smarty 
 ### bitweaver module is a mirror of CLYDE for now
 # pulled for now to prevent old schoolers from getting the wrong thing- spiderr
 bitweaver  _root &_bit_blogs &_bit_liberty &_bit_categories &_bit_doc &_bit_fisheye &_bit_gatekeeper &_bit_google &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_messu &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_search &_bit_nexus &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_p_tinymce &_bit_tree &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_jscalendar &_phpbb &_gallery2 &_l_adodb &_l_smarty 
 
-devclyde _root &_bit_stylist &_bit_blogs &_bit_liberty &_bit_categories &_bit_calendar &_bit_contacts &_bit_doc &_bit_fisheye &_gallery2 &_bit_gatekeeper &_bit_google &_bit_hotwords &_bit_html &_bit_install &_bit_kernel &_bit_languages &_bit_messu &_bit_multisites &_bit_nexus &_bit_stickies &_bit_pdf &_bit_quota &_bit_quicktags &_bit_rss &_bit_sample &_bit_search &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_storage &_bit_temp  &_bit_themes &_p_tinymce &_bit_tikibot &_bit_tree &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_jscalendar &_phpbb &_l_adodb &_l_smarty 
-
-
-#-#-# Fisheye
-fisheye _root &_bit_liberty &_bit_fisheye &_bit_gatekeeper &_bit_install &_bit_kernel &_bit_languages &_bit_messu &_bit_pdf &_bit_quota &_bit_search &_bit_smileys &_bit_storage &_bit_temp &_bit_themes &_bit_users &_bit_util &_l_adodb &_l_smarty 
+devreleaseone _root &_bit_stylist &_bit_blogs &_bit_liberty &_bit_categories &_bit_calendar &_bit_contacts &_bit_doc &_bit_fisheye &_gallery2 &_bit_gatekeeper &_bit_google &_bit_hotwords &_bit_html &_bit_install &_bit_kernel &_bit_languages &_bit_messu &_bit_multisites &_bit_nexus &_bit_stickies &_bit_pdf &_bit_quota &_bit_quicktags &_bit_rss &_bit_sample &_bit_search &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_storage &_bit_temp  &_bit_themes &_p_tinymce &_bit_tikibot &_bit_tree &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_jscalendar &_phpbb &_l_adodb &_l_smarty 
 
 
 everything _root &_bit_articles &_bit_backups &_bit_banners &_bit_blogs &_bit_calendar &_bit_categories &_bit_charts &_bit_chat &_bit_liberty &_bit_dcs &_bit_debug &_bit_directory &_bit_doc &_bit_drawings &_bit_ephemerides &_bit_faqs &_bit_featured_links &_bit_filegals &_bit_fisheye &_bit_Galaxia &_bit_games &_bit_gatekeeper &_bit_google &_bit_hawhaw &_bit_hotwords &_bit_html &_bit_htmlarea &_bit_imagegals &_bit_img &_bit_install &_bit_integrator &_bit_irc &_bit_kernel &_bit_languages &_bit_multisites &_bit_live_support &_bit_maps &_bit_messu &_bit_minical &_bit_movies &_bit_nexus &_bit_newsletters &_bit_newsreader &_bit_notepad &_bit_pdf &_bit_polls &_bit_quicktags &_bit_quizzes &_bit_quota &_bit_rss &_bit_sample &_bit_search &_bit_shoutbox &_bit_smileys &_bit_snoopy &_bit_stats &_bit_stickies &_bit_storage &_bit_stylist &_bit_surveys &_bit_tabs &_bit_taglines &_bit_tail &_bit_temp &_bit_themes &_p_tinymce &_bit_tikibot &_bit_tikiforums &_bit_tikihelp &_bit_trackers &_bit_tree &_bit_users &_bit_util &_bit_webmail &_bit_wiki &_bit_xmlrpc &_zencart &_phpbb &_phplayers &_jscalendar &_l_adodb &_l_smarty
