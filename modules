@@ -27,27 +27,6 @@
 
 
 
-# -=-=-=-=-= 3rd party packages =-=-=-=-=-
-
-# http://php.weblogs.com/ADODB
-# DB Abstraction Layer
-# licence LGPL + BSD
-#_adodb		_adodb
-_adodb   -d util/adodb _adodb
-
-# http://smarty.php.net
-# template and cache engine
-# Licence LGPL
-_smarty  -d util/smarty _smarty
-
-# http://www.phpbb.com
-# forums
-_phpbb -d phpbb _phpbb
-
-# http://www.phpbb.com
-# wysiwyg
-_tinymce -d tinymce _tinymce
-
 # -=-=-=-=-= TikiPro Individual Package modules =-=-=-=-=-
 
 _bit_blogs -d blogs _bit_blogs
@@ -77,6 +56,7 @@ _bit_temp -d temp _bit_temp
 _bit_themes -d themes _bit_themes
 _bit_users -d users _bit_users
 _bit_util -d util _bit_util
+_bit_storage -d storage _bit_storage
 _bit_wiki -d wiki _bit_wiki
 _bit_xmlrpc -d xmlrpc _bit_xmlrpc
 #_bit_articles -d articles _bit_articles
@@ -116,7 +96,6 @@ _bit_xmlrpc -d xmlrpc _bit_xmlrpc
 #_bit_polls -d polls _bit_polls
 #_bit_quizzes -d quizzes _bit_quizzes
 #_bit_snoopy -d snoopy _bit_snoopy
-#_bit_storage -d storage _bit_storage
 #_bit_structures -d structures _bit_structures # deprecated in Clyde
 #_bit_stylist -d stylist _bit_stylist
 #_bit_surveys -d surveys _bit_surveys
@@ -129,6 +108,27 @@ _bit_xmlrpc -d xmlrpc _bit_xmlrpc
 #_bit_trackers -d trackers _bit_trackers
 #_bit_tree -d tree _bit_tree
 #_bit_webmail -d webmail _bit_webmail
+
+# -=-=-=-=-= 3rd party packages =-=-=-=-=-
+
+# http://php.weblogs.com/ADODB
+# DB Abstraction Layer
+# licence LGPL + BSD
+#_adodb		_adodb
+_adodb   -d util/adodb _adodb
+
+# http://smarty.php.net
+# template and cache engine
+# Licence LGPL
+_smarty  -d util/smarty _smarty
+
+# http://www.phpbb.com
+# forums
+_phpbb -d phpbb _phpbb
+
+# http://www.phpbb.com
+# wysiwyg
+_tinymce -d tinymce _tinymce
 
 # We like to export the sample directory
 sample &_bit_sample
