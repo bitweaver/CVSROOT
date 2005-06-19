@@ -27,7 +27,7 @@
 
 
 
-# -=-=-=-=-= TikiPro Individual Package modules =-=-=-=-=-
+# -=-=-=-=-= bitweaver Individual Package modules =-=-=-=-=-
 
 _bit_blogs -d blogs _bit_blogs
 _bit_categories -d categories _bit_categories
