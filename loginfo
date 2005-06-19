@@ -26,6 +26,6 @@
 # or
 #DEFAULT (echo ""; id; echo %{sVv}; date; cat) >> $CVSROOT/CVSROOT/commitlog
 
-ALL $CVSROOT/CVSROOT/syncmail -u %{sVvt} spider@viovio.com
+ALL $CVSROOT/CVSROOT/syncmail -u %{sVvt} bitweaver-cvs@lists.sourceforge.net
 
 ALL $CVSROOT/CVSROOT/ciabot.pl %s $USER
