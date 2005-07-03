@@ -33,7 +33,9 @@ _bit_articles -d articles _bit_articles
 _bit_bitcart -d bitcart _bit_bitcart
 _bit_blogs -d blogs _bit_blogs
 _bit_categories -d categories _bit_categories
+_bit_doc -d doc _bit_doc
 _bit_fisheye -d fisheye _bit_fisheye
+_bit_galaxia -d galaxia _bit_galaxia
 _bit_gallery2 -d gallery2 _bit_gallery2
 _bit_gatekeeper -d gatekeeper _bit_gatekeeper
 _bit_hotwords -d hotwords _bit_hotwords
@@ -71,14 +73,12 @@ _bit_xmlrpc -d xmlrpc _bit_xmlrpc
 #_bit_dcs -d dcs _bit_dcs
 #_bit_debug -d debug _bit_debug
 #_bit_directory -d directory _bit_directory
-#_bit_doc -d doc _bit_doc
 #_bit_drawings -d drawings _bit_drawings
 #_bit_ephemerides -d ephemerides _bit_ephemerides
 #_bit_faqs -d faqs _bit_faqs
 #_bit_featured_links -d featured_links _bit_featured_links
 #_bit_filegals -d filegals _bit_filegals
 #_bit_forums -d forums _bit_forums
-#_bit_galaxia -d galaxia _bit_galaxia
 #_bit_games -d games _bit_games
 #_bit_google -d google _bit_google
 #_bit_hawhaw -d hawhaw _bit_hawhaw
@@ -133,8 +133,8 @@ _geshi  -d util/geshi _geshi
 # forums
 _phpbb -d phpbb _phpbb
 
-# http://www.phpbb.com
-# wysiwyg
+# http://tinymce.moxiecode.com/
+# wysiwyg editor
 _tinymce -d tinymce _tinymce
 
 # We like to export the sample directory
@@ -145,5 +145,5 @@ sample &_bit_sample
 bitweaver    _root &_bit_blogs &_bit_liberty &_bit_categories &_bit_fisheye &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_messages &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_search &_bit_nexus &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_tinymce &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_phpbb &_bit_gallery2 &_adodb &_smarty &_geshi
 # pulled for now to prevent old schoolers from getting the wrong thing- spiderr
 
-bitweaverdev    _root &_bit_articles &_bit_bitcart &_bit_blogs &_bit_liberty &_bit_categories &_bit_fisheye &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_messages &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_search &_bit_nexus &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_tinymce &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_phpbb &_bit_gallery2 &_adodb &_smarty &_geshi
+bitweaverdev    _root &_bit_articles &_bit_bitcart &_bit_blogs &_bit_liberty &_bit_categories &_bit_doc &_bit_fisheye &_bit_galaxia &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_messages &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_sample &_bit_search &_bit_nexus &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_tinymce &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_phpbb &_bit_gallery2 &_adodb &_smarty &_geshi
 
