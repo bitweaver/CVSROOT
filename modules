@@ -33,6 +33,7 @@ _bit_articles -d articles _bit_articles
 _bit_cart -d bitcart _bit_cart
 _bit_commerce -d commerce _bit_commerce
 _bit_blogs -d blogs _bit_blogs
+_bit_calendar -d calendar _bit_calendar
 _bit_categories -d categories _bit_categories
 _bit_doc -d doc _bit_doc
 _bit_fisheye -d fisheye _bit_fisheye
@@ -67,7 +68,6 @@ _bit_wiki -d wiki _bit_wiki
 _bit_xmlrpc -d xmlrpc _bit_xmlrpc
 #_bit_backups -d backups _bit_backups
 #_bit_banners -d banners _bit_banners
-#_bit_calendar -d calendar _bit_calendar
 #_bit_charts -d charts _bit_charts
 #_bit_chat -d chat _bit_chat
 #_bit_contacts -d contacts _bit_contacts
@@ -146,5 +146,5 @@ sample &_bit_sample
 bitweaver    _root &_bit_blogs &_bit_liberty &_bit_categories &_bit_fisheye &_bit_gatekeeper &_bit_hotwords &_bit_multisites &_bit_install &_bit_kernel &_bit_languages &_bit_messages &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_search &_bit_nexus &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_tinymce &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_phpbb &_bit_gallery2 &_adodb &_smarty &_geshi
 # pulled for now to prevent old schoolers from getting the wrong thing- spiderr
 
-bitweaverdev    _root &_bit_articles &_bit_commerce &_bit_blogs &_bit_liberty &_bit_categories &_bit_doc &_bit_multisites &_bit_fisheye &_bit_galaxia &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_messages &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_sample &_bit_search &_bit_nexus &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_tinymce &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_phpbb &_bit_gallery2 &_adodb &_smarty &_geshi
+bitweaverdev    _root &_bit_articles &_bit_commerce &_bit_blogs &_bit_liberty &_bit_calendar &_bit_categories &_bit_doc &_bit_multisites &_bit_fisheye &_bit_galaxia &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_messages &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_sample &_bit_search &_bit_nexus &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_tinymce &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_phpbb &_bit_gallery2 &_adodb &_smarty &_geshi
 
