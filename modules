@@ -30,11 +30,11 @@
 # -=-=-=-=-= bitweaver Individual Package modules =-=-=-=-=-
 
 _bit_articles -d articles _bit_articles
-_bit_cart -d bitcart _bit_cart
-_bit_commerce -d commerce _bit_commerce
 _bit_blogs -d blogs _bit_blogs
 _bit_calendar -d calendar _bit_calendar
+_bit_cart -d bitcart _bit_cart
 _bit_categories -d categories _bit_categories
+_bit_commerce -d commerce _bit_commerce
 _bit_doc -d doc _bit_doc
 _bit_fisheye -d fisheye _bit_fisheye
 _bit_galaxia -d galaxia _bit_galaxia
@@ -48,8 +48,8 @@ _bit_liberty -d liberty _bit_liberty
 _bit_messages -d messages _bit_messages
 _bit_multisites -d multisites _bit_multisites
 _bit_nexus -d nexus _bit_nexus
-_bit_stickies -d stickies _bit_stickies
 _bit_pdf -d pdf _bit_pdf
+_bit_pigeonholes -d pigeonholes _bit_pigeonholes
 _bit_quicktags -d quicktags _bit_quicktags
 _bit_quota -d quota _bit_quota
 _bit_rss -d rss _bit_rss
@@ -58,14 +58,17 @@ _bit_search -d search _bit_search
 _bit_shoutbox -d shoutbox _bit_shoutbox
 _bit_smileys -d smileys _bit_smileys
 _bit_stats -d stats _bit_stats
+_bit_stickies -d stickies _bit_stickies
+_bit_storage -d storage _bit_storage
+_bit_styles -d themes/styles _bit_styles
 _bit_temp -d temp _bit_temp
 _bit_themes -d themes _bit_themes
-_bit_styles -d themes/styles _bit_styles
 _bit_users -d users _bit_users
 _bit_util -d util _bit_util
-_bit_storage -d storage _bit_storage
 _bit_wiki -d wiki _bit_wiki
 _bit_xmlrpc -d xmlrpc _bit_xmlrpc
+
+
 #_bit_backups -d backups _bit_backups
 #_bit_banners -d banners _bit_banners
 #_bit_charts -d charts _bit_charts
@@ -83,8 +86,8 @@ _bit_xmlrpc -d xmlrpc _bit_xmlrpc
 #_bit_games -d games _bit_games
 #_bit_google -d google _bit_google
 #_bit_hawhaw -d hawhaw _bit_hawhaw
-#_bit_html -d html _bit_html
 #_bit_htmlarea -d htmlarea _bit_htmlarea
+#_bit_html -d html _bit_html
 #_bit_imagegals -d imagegals _bit_imagegals
 #_bit_img -d img _bit_img
 #_bit_integrator -d integrator _bit_integrator
@@ -143,8 +146,7 @@ sample &_bit_sample
 
 # modules for each release
 #-#-# Released
-bitweaver    _root &_bit_blogs &_bit_liberty &_bit_categories &_bit_fisheye &_bit_gatekeeper &_bit_hotwords &_bit_multisites &_bit_install &_bit_kernel &_bit_languages &_bit_messages &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_search &_bit_nexus &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_tinymce &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_phpbb &_bit_gallery2 &_adodb &_smarty &_geshi
+bitweaver    _root &_adodb &_bit_blogs &_bit_categories &_bit_fisheye &_bit_gallery2 &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_liberty &_bit_messages &_bit_multisites &_bit_nexus &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_search &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_styles &_bit_temp &_bit_themes &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_geshi &_phpbb &_smarty &_tinymce
 # pulled for now to prevent old schoolers from getting the wrong thing- spiderr
 
-bitweaverdev    _root &_bit_articles &_bit_commerce &_bit_blogs &_bit_liberty &_bit_calendar &_bit_categories &_bit_doc &_bit_multisites &_bit_fisheye &_bit_galaxia &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_messages &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_sample &_bit_search &_bit_nexus &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_tinymce &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_phpbb &_bit_gallery2 &_adodb &_smarty &_geshi
-
+bitweaverdev    _root &_bit_articles &_bit_blogs &_bit_calendar &_bit_categories &_bit_commerce &_bit_doc &_bit_fisheye &_bit_galaxia &_bit_gallery2 &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_liberty &_bit_messages &_bit_multisites &_bit_nexus &_bit_pdf &_bit_pigeonholes &_bit_quicktags &_bit_quota &_bit_rss &_bit_sample &_bit_search &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_styles &_bit_temp &_bit_themes &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_adodb &_geshi &_phpbb &_smarty &_tinymce
