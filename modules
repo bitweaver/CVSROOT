@@ -75,7 +75,7 @@ _bit_xmlrpc -d xmlrpc _bit_xmlrpc
 
 _bit_style_basic -d themes/styles/basic _bit_styles/basic
 _bit_style_blank -d themes/styles/blank _bit_styles/blank
-_bit_style_blue_n_gray -d themes/styles/gray _bit_styles/gray
+_bit_style_blue_n_gray -d themes/styles/blue_n_gray _bit_styles/blue_n_gray
 _bit_style_buckyball -d themes/styles/buckyball _bit_styles/buckyball
 _bit_style_chemokine -d themes/styles/chemokine _bit_styles/chemokine
 _bit_style_clean -d themes/styles/clean _bit_styles/clean
