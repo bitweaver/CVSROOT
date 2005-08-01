@@ -125,25 +125,25 @@ styles &_bit_styles
 # DB Abstraction Layer
 # licence LGPL + BSD
 #_adodb		_adodb
-_adodb   -d util/adodb _adodb
+_adodb                      -d util/adodb         _adodb
 
 # http://smarty.php.net
 # template and cache engine
 # Licence LGPL
-_smarty  -d util/smarty _smarty
+_smarty                     -d util/smarty        _smarty
 
 # http://qbnz.com/highlighter
 # template and cache engine
 # Licence LGPL
-_geshi  -d util/geshi _geshi
+_geshi                      -d util/geshi         _geshi
 
 # http://www.phpbb.com
 # forums
-_phpbb -d phpbb _phpbb
+_phpbb                      -d phpbb              _phpbb
 
 # http://tinymce.moxiecode.com
 # wysiwyg editor
-_tinymce -d tinymce _tinymce
+_tinymce                    -d tinymce            _tinymce
 
 # We like to export the sample directory
 sample &_bit_sample
@@ -153,13 +153,104 @@ sample &_bit_sample
 # -=-=-=-=-= working modules =-=-=-=-=-
 
 #-#-# Released modules
-bitweaver       _root &_bit_blogs &_bit_categories &_bit_fisheye &_bit_gallery2 &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_liberty &_bit_messages &_bit_multisites &_bit_nexus &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_search &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_bit_users &_bit_wiki &_bit_xmlrpc &_bit_util &_adodb &_geshi &_phpbb &_smarty &_tinymce
+bitweaver _root \
+	&_bit_blogs \
+	&_bit_categories \
+	&_bit_fisheye \
+	&_bit_gallery2 \
+	&_bit_gatekeeper \
+	&_bit_hotwords \
+	&_bit_install \
+	&_bit_kernel \
+	&_bit_languages \
+	&_bit_liberty \
+	&_bit_messages \
+	&_bit_multisites \
+	&_bit_nexus \
+	&_bit_pdf \
+	&_bit_quicktags \
+	&_bit_quota \
+	&_bit_rss \
+	&_bit_search \
+	&_bit_shoutbox \
+	&_bit_smileys \
+	&_bit_stats \
+	&_bit_stickies \
+	&_bit_storage \
+	&_bit_styles_release \
+	&_bit_temp \
+	&_bit_themes \
+	&_bit_users \
+	&_bit_wiki \
+	&_bit_xmlrpc \
+	&_bit_util \
+		&_adodb \
+		&_geshi \
+		&_smarty \
+	&_phpbb \
+	&_tinymce
 
 #-#-# all modules that are currently in use or developement
-bitweaverdev    _root &_bit_articles &_bit_blogs &_bit_calendar &_bit_categories &_bit_commerce &_bit_doc &_bit_fisheye &_bit_galaxia &_bit_gallery2 &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_liberty &_bit_mapper &_bit_messages &_bit_multisites &_bit_nexus &_bit_pdf &_bit_pigeonholes &_bit_quicktags &_bit_quota &_bit_rss &_bit_sample &_bit_search &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_adodb &_geshi &_phpbb &_smarty &_tinymce
+bitweaverdev _root \
+	&_bit_articles \
+	&_bit_blogs \
+	&_bit_calendar \
+	&_bit_categories \
+	&_bit_commerce \
+	&_bit_doc \
+	&_bit_fisheye \
+	&_bit_galaxia \
+	&_bit_gallery2 \
+	&_bit_gatekeeper \
+	&_bit_hotwords \
+	&_bit_install \
+	&_bit_kernel \
+	&_bit_languages \
+	&_bit_liberty \
+	&_bit_mapper \
+	&_bit_messages \
+	&_bit_multisites \
+	&_bit_nexus \
+	&_bit_pdf \
+	&_bit_pigeonholes \
+	&_bit_quicktags \
+	&_bit_quota \
+	&_bit_rss \
+	&_bit_sample \
+	&_bit_search \
+	&_bit_shoutbox \
+	&_bit_smileys \
+	&_bit_stats \
+	&_bit_stickies \
+	&_bit_storage \
+	&_bit_temp \
+	&_bit_themes \
+	&_bit_styles \
+	&_bit_users \
+	&_bit_util \
+	&_bit_wiki \
+	&_bit_xmlrpc \
+		&_adodb \
+		&_geshi \
+		&_smarty \
+	&_phpbb \
+	&_tinymce
 
 #-#-# only the core modules. bitweaver should work with only these present
-bitweavercore   _root &_bit_install &_bit_kernel &_bit_languages &_bit_liberty &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_bit_users &_bit_util &_adodb &_geshi &_smarty
+bitweavercore _root \
+	&_bit_install \
+	&_bit_kernel \
+	&_bit_languages \
+	&_bit_liberty \
+	&_bit_storage \
+	&_bit_temp \
+	&_bit_themes \
+	&_bit_styles_release \
+	&_bit_users \
+	&_bit_util \
+		&_adodb \
+		&_geshi \
+		&_smarty
 
 
 
