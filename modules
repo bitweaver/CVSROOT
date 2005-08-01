@@ -29,74 +29,90 @@
 
 # -=-=-=-=-= bitweaver Individual Package modules =-=-=-=-=-
 
-_bit_articles -d articles _bit_articles
-_bit_blogs -d blogs _bit_blogs
-_bit_calendar -d calendar _bit_calendar
-_bit_cart -d bitcart _bit_cart
-_bit_categories -d categories _bit_categories
-_bit_commerce -d commerce _bit_commerce
-_bit_doc -d doc _bit_doc
-_bit_fisheye -d fisheye _bit_fisheye
-_bit_galaxia -d galaxia _bit_galaxia
-_bit_gallery2 -d gallery2 _bit_gallery2
-_bit_gatekeeper -d gatekeeper _bit_gatekeeper
-_bit_hotwords -d hotwords _bit_hotwords
-_bit_install -d install _bit_install
-_bit_kernel -d kernel _bit_kernel
-_bit_languages -d languages _bit_languages
-_bit_liberty -d liberty _bit_liberty
-_bit_mapper -d mapper _bit_mapper
-_bit_messages -d messages _bit_messages
-_bit_multisites -d multisites _bit_multisites
-_bit_nexus -d nexus _bit_nexus
-_bit_pdf -d pdf _bit_pdf
-_bit_pigeonholes -d pigeonholes _bit_pigeonholes
-_bit_quicktags -d quicktags _bit_quicktags
-_bit_quota -d quota _bit_quota
-_bit_rss -d rss _bit_rss
-_bit_sample -d sample _bit_sample
-_bit_search -d search _bit_search
-_bit_shoutbox -d shoutbox _bit_shoutbox
-_bit_smileys -d smileys _bit_smileys
-_bit_stats -d stats _bit_stats
-_bit_stickies -d stickies _bit_stickies
-_bit_styles -d themes/styles _bit_styles
-_bit_storage -d storage _bit_storage
-_bit_temp -d temp _bit_temp
-_bit_themes -d themes _bit_themes
-_bit_users -d users _bit_users
-_bit_util -d util _bit_util
-_bit_wiki -d wiki _bit_wiki
-_bit_xmlrpc -d xmlrpc _bit_xmlrpc
+_bit_articles               -d articles           _bit_articles
+_bit_blogs                  -d blogs              _bit_blogs
+_bit_calendar               -d calendar           _bit_calendar
+_bit_cart                   -d bitcart            _bit_cart
+_bit_categories             -d categories         _bit_categories
+_bit_commerce               -d commerce           _bit_commerce
+_bit_doc                    -d doc                _bit_doc
+_bit_fisheye                -d fisheye            _bit_fisheye
+_bit_galaxia                -d galaxia            _bit_galaxia
+_bit_gallery2               -d gallery2           _bit_gallery2
+_bit_gatekeeper             -d gatekeeper         _bit_gatekeeper
+_bit_hotwords               -d hotwords           _bit_hotwords
+_bit_install                -d install            _bit_install
+_bit_kernel                 -d kernel             _bit_kernel
+_bit_languages              -d languages          _bit_languages
+_bit_liberty                -d liberty            _bit_liberty
+_bit_mapper                 -d mapper             _bit_mapper
+_bit_messages               -d messages           _bit_messages
+_bit_multisites             -d multisites         _bit_multisites
+_bit_nexus                  -d nexus              _bit_nexus
+_bit_pdf                    -d pdf                _bit_pdf
+_bit_pigeonholes            -d pigeonholes        _bit_pigeonholes
+_bit_quicktags              -d quicktags          _bit_quicktags
+_bit_quota                  -d quota              _bit_quota
+_bit_rss                    -d rss                _bit_rss
+_bit_sample                 -d sample             _bit_sample
+_bit_search                 -d search             _bit_search
+_bit_shoutbox               -d shoutbox           _bit_shoutbox
+_bit_smileys                -d smileys            _bit_smileys
+_bit_stats                  -d stats              _bit_stats
+_bit_stickies               -d stickies           _bit_stickies
+_bit_styles                 -d themes/styles      _bit_styles
+_bit_storage                -d storage            _bit_storage
+_bit_temp                   -d temp               _bit_temp
+_bit_themes                 -d themes             _bit_themes
+_bit_users                  -d users              _bit_users
+_bit_util                   -d util               _bit_util
+_bit_wiki                   -d wiki               _bit_wiki
+_bit_xmlrpc                 -d xmlrpc             _bit_xmlrpc
 
 
 
 # -=-=-=-=-= themes and styles =-=-=-=-=-
 
 # all themes as individual modules
-_bit_style_basic			-d basic			_bit_styles/basic
-_bit_style_blank			-d blank			_bit_styles/blank
-_bit_style_blue_n_gray		-d blue_n_gray		_bit_styles/blue_n_gray
-_bit_style_buckyball		-d buckyball		_bit_styles/buckyball
-_bit_style_chemokine		-d chemokine		_bit_styles/chemokine
-_bit_style_clean			-d clean			_bit_styles/clean
-_bit_style_fifty_percent	-d fifty_percent	_bit_styles/fifty_percent
-_bit_style_firebird			-d firebird			_bit_styles/firebird
-_bit_style_interleukin		-d interleukin		_bit_styles/interleukin
-_bit_style_jill				-d jill				_bit_styles/jill
-_bit_style_july4			-d july4			_bit_styles/july4
-_bit_style_kraphiti			-d kraphiti			_bit_styles/kraphiti
-_bit_style_lessneat			-d lessneat			_bit_styles/lessneat
-_bit_style_mambo			-d mambo			_bit_styles/mambo
-_bit_style_native			-d native			_bit_styles/native
-_bit_style_navigo			-d navigo			_bit_styles/navigo
-_bit_style_olfactory		-d olfactory		_bit_styles/olfactory
-_bit_style_slideshows		-d slideshows		_bit_styles/slideshows
-_bit_style_smock			-d smock			_bit_styles/smock
-_bit_style_tikipro			-d tikipro			_bit_styles/tikipro
+_bit_style_basic            -d basic              _bit_styles/basic
+_bit_style_blank            -d blank              _bit_styles/blank
+_bit_style_blue_n_gray      -d blue_n_gray        _bit_styles/blue_n_gray
+_bit_style_buckyball        -d buckyball          _bit_styles/buckyball
+_bit_style_chemokine        -d chemokine          _bit_styles/chemokine
+_bit_style_clean            -d clean              _bit_styles/clean
+_bit_style_fifty_percent    -d fifty_percent      _bit_styles/fifty_percent
+_bit_style_firebird         -d firebird           _bit_styles/firebird
+_bit_style_interleukin      -d interleukin        _bit_styles/interleukin
+_bit_style_jill             -d jill               _bit_styles/jill
+_bit_style_july4            -d july4              _bit_styles/july4
+_bit_style_kraphiti         -d kraphiti           _bit_styles/kraphiti
+_bit_style_lessneat         -d lessneat           _bit_styles/lessneat
+_bit_style_mambo            -d mambo              _bit_styles/mambo
+_bit_style_native           -d native             _bit_styles/native
+_bit_style_navigo           -d navigo             _bit_styles/navigo
+_bit_style_olfactory        -d olfactory          _bit_styles/olfactory
+_bit_style_slideshows       -d slideshows         _bit_styles/slideshows
+_bit_style_smock            -d smock              _bit_styles/smock
+_bit_style_tikipro          -d tikipro            _bit_styles/tikipro
 
 # select the usable themes
-_bit_styles_release -d themes/styles &_bit_style_basic &_bit_style_blank &_bit_style_blue_n_gray &_bit_style_buckyball &_bit_style_chemokine &_bit_style_clean &_bit_style_fifty_percent &_bit_style_firebird &_bit_style_interleukin &_bit_style_jill &_bit_style_july4 &_bit_style_lessneat &_bit_style_mambo &_bit_style_native &_bit_style_olfactory &_bit_style_slideshows
+_bit_styles_release -d themes/styles \
+	&_bit_style_basic \
+	&_bit_style_blank \
+	&_bit_style_blue_n_gray \
+	&_bit_style_buckyball \
+	&_bit_style_chemokine \
+	&_bit_style_clean \
+	&_bit_style_fifty_percent \
+	&_bit_style_firebird \
+	&_bit_style_interleukin \
+	&_bit_style_jill \
+	&_bit_style_july4 \
+	&_bit_style_lessneat \
+	&_bit_style_mambo \
+	&_bit_style_native \
+	&_bit_style_olfactory \
+	&_bit_style_slideshows
 
 # make all styles easily accessible
 styles &_bit_styles
