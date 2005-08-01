@@ -60,7 +60,7 @@ _bit_shoutbox -d shoutbox _bit_shoutbox
 _bit_smileys -d smileys _bit_smileys
 _bit_stats -d stats _bit_stats
 _bit_stickies -d stickies _bit_stickies
-#_bit_styles -d themes/styles _bit_styles
+_bit_styles -d themes/styles _bit_styles
 _bit_storage -d storage _bit_storage
 _bit_temp -d temp _bit_temp
 _bit_themes -d themes _bit_themes
@@ -71,7 +71,7 @@ _bit_xmlrpc -d xmlrpc _bit_xmlrpc
 
 
 
-# -=-=-=-=-= themes =-=-=-=-=-
+# -=-=-=-=-= themes and styles =-=-=-=-=-
 
 _bit_style_basic -d themes/styles/basic _bit_styles/basic
 _bit_style_blank -d themes/styles/blank _bit_styles/blank
@@ -95,10 +95,10 @@ _bit_style_smock -d themes/styles/smock _bit_styles/smock
 _bit_style_tikipro -d themes/styles/tikipro _bit_styles/tikipro
 
 # select the usable themes
-_bit_styles &_bit_style_basic &_bit_style_blank &_bit_style_blue_n_gray &_bit_style_buckyball &_bit_style_chemokine &_bit_style_clean &_bit_style_fifty_percent &_bit_style_firebird &_bit_style_interleukin &_bit_style_jill &_bit_style_july4 &_bit_style_lessneat &_bit_style_mambo &_bit_style_native &_bit_style_olfactory &_bit_style_slideshows
+_bit_styles_release &_bit_style_basic &_bit_style_blank &_bit_style_blue_n_gray &_bit_style_buckyball &_bit_style_chemokine &_bit_style_clean &_bit_style_fifty_percent &_bit_style_firebird &_bit_style_interleukin &_bit_style_jill &_bit_style_july4 &_bit_style_lessneat &_bit_style_mambo &_bit_style_native &_bit_style_olfactory &_bit_style_slideshows
 
-# all themes
-_bit_stylesdev &_bit_style_basic &_bit_style_blank &_bit_style_blue_n_gray &_bit_style_buckyball &_bit_style_chemokine &_bit_style_clean &_bit_style_fifty_percent &_bit_style_firebird &_bit_style_interleukin &_bit_style_jill &_bit_style_july4 &_bit_style_kraphiti &_bit_style_lessneat &_bit_style_mambo &_bit_style_native &_bit_style_navigo &_bit_style_olfactory &_bit_style_slideshows &_bit_style_smock &_bit_style_tikipro
+# make all styles easily accessible
+styles &_bit_styles
 
 
 
@@ -131,21 +131,18 @@ _tinymce -d tinymce _tinymce
 # We like to export the sample directory
 sample &_bit_sample
 
-# make all styles easily accessible
-styles -d styles _bit_stylesdev
-
 
 
 # -=-=-=-=-= working modules =-=-=-=-=-
 
 #-#-# Released modules
-bitweaver       _root &_bit_blogs &_bit_categories &_bit_fisheye &_bit_gallery2 &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_liberty &_bit_messages &_bit_multisites &_bit_nexus &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_search &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_bit_users &_bit_wiki &_bit_xmlrpc &_bit_util &_adodb &_geshi &_phpbb &_smarty &_tinymce
+bitweaver       _root &_bit_blogs &_bit_categories &_bit_fisheye &_bit_gallery2 &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_liberty &_bit_messages &_bit_multisites &_bit_nexus &_bit_pdf &_bit_quicktags &_bit_quota &_bit_rss &_bit_search &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles_release &_bit_users &_bit_wiki &_bit_xmlrpc &_bit_util &_adodb &_geshi &_phpbb &_smarty &_tinymce
 
 #-#-# all modules that are currently in use or developement
-bitweaverdev    _root &_bit_articles &_bit_blogs &_bit_calendar &_bit_categories &_bit_commerce &_bit_doc &_bit_fisheye &_bit_galaxia &_bit_gallery2 &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_liberty &_bit_mapper &_bit_messages &_bit_multisites &_bit_nexus &_bit_pdf &_bit_pigeonholes &_bit_quicktags &_bit_quota &_bit_rss &_bit_sample &_bit_search &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_stylesdev &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_adodb &_geshi &_phpbb &_smarty &_tinymce
+bitweaverdev    _root &_bit_articles &_bit_blogs &_bit_calendar &_bit_categories &_bit_commerce &_bit_doc &_bit_fisheye &_bit_galaxia &_bit_gallery2 &_bit_gatekeeper &_bit_hotwords &_bit_install &_bit_kernel &_bit_languages &_bit_liberty &_bit_mapper &_bit_messages &_bit_multisites &_bit_nexus &_bit_pdf &_bit_pigeonholes &_bit_quicktags &_bit_quota &_bit_rss &_bit_sample &_bit_search &_bit_shoutbox &_bit_smileys &_bit_stats &_bit_stickies &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_bit_users &_bit_util &_bit_wiki &_bit_xmlrpc &_adodb &_geshi &_phpbb &_smarty &_tinymce
 
 #-#-# only the core modules. bitweaver should work with only these present
-bitweavercore   _root &_bit_install &_bit_kernel &_bit_languages &_bit_liberty &_bit_storage &_bit_temp &_bit_themes &_bit_styles &_bit_users &_bit_util &_adodb &_geshi &_smarty
+bitweavercore   _root &_bit_install &_bit_kernel &_bit_languages &_bit_liberty &_bit_storage &_bit_temp &_bit_themes &_bit_styles_release &_bit_users &_bit_util &_adodb &_geshi &_smarty
 
 
 
