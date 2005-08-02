@@ -224,9 +224,9 @@ bitweaverdev _root \
 	&_bit_stats \
 	&_bit_stickies \
 	&_bit_storage \
+	&_bit_styles \
 	&_bit_temp \
 	&_bit_themes \
-	&_bit_styles \
 	&_bit_users \
 	&_bit_util \
 	&_bit_wiki \
@@ -244,9 +244,9 @@ bitweavercore _root \
 	&_bit_languages \
 	&_bit_liberty \
 	&_bit_storage \
+	&_bit_styles_release \
 	&_bit_temp \
 	&_bit_themes \
-	&_bit_styles_release \
 	&_bit_users \
 	&_bit_util \
 		&_adodb \
