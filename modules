@@ -181,7 +181,7 @@ bitweaver _root \
 	&_bit_storage \
 	&_bit_temp \
 	&_bit_themes \
-	&_bit_styles_release \
+		&_bit_styles_release \
 	&_bit_users \
 	&_bit_wiki \
 	&_bit_xmlrpc \
@@ -228,14 +228,14 @@ bitweaverdev _root \
 	&_bit_storage \
 	&_bit_temp \
 	&_bit_themes \
-	&_bit_styles \
+		&_bit_styles \
 	&_bit_users \
 	&_bit_util \
-	&_bit_wiki \
-	&_bit_xmlrpc \
 		&_adodb \
 		&_geshi \
 		&_smarty \
+	&_bit_wiki \
+	&_bit_xmlrpc \
 	&_phpbb \
 	&_tinymce
 
@@ -248,7 +248,7 @@ bitweavercore _root \
 	&_bit_storage \
 	&_bit_temp \
 	&_bit_themes \
-	&_bit_styles_release \
+		&_bit_styles_release \
 	&_bit_users \
 	&_bit_util \
 		&_adodb \
