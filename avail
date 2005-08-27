@@ -1,7 +1,4 @@
-# restrict access to everything first
 unavail
-
-# allow access to internal dev modules
 avail||_bit_articles   
 avail||_bit_blogs      
 avail||_bit_calendar   
@@ -34,32 +31,28 @@ avail||_bit_shoutbox
 avail||_bit_smileys    
 avail||_bit_stats      
 avail||_bit_stickies   
-#avail||_bit_styles     
-	avail||_bit_style_basic           
-	avail||_bit_style_blank           
-	avail||_bit_style_blue_n_gray     
-	avail||_bit_style_buckyball       
-	avail||_bit_style_chemokine       
-	avail||_bit_style_clean           
-	avail||_bit_style_fifty_percent   
-	avail||_bit_style_firebird        
-	avail||_bit_style_interleukin     
-	avail||_bit_style_jill            
-	avail||_bit_style_july4           
-	avail||_bit_style_kraphiti        
-	avail||_bit_style_lessneat        
-	avail||_bit_style_mambo           
-	avail||_bit_style_native          
-	avail||_bit_style_navigo          
-	avail||_bit_style_olfactory       
-	avail||_bit_style_slideshows      
-	avail||_bit_style_smock           
-	avail||_bit_style_tikipro         
-#avail||_bit_storage    
-#avail||_bit_temp       
+avail||_bit_style_basic           
+avail||_bit_style_blank           
+avail||_bit_style_blue_n_gray     
+avail||_bit_style_buckyball       
+avail||_bit_style_chemokine       
+avail||_bit_style_clean           
+avail||_bit_style_fifty_percent   
+avail||_bit_style_firebird        
+avail||_bit_style_interleukin     
+avail||_bit_style_jill            
+avail||_bit_style_july4           
+avail||_bit_style_kraphiti        
+avail||_bit_style_lessneat        
+avail||_bit_style_mambo           
+avail||_bit_style_native          
+avail||_bit_style_navigo          
+avail||_bit_style_olfactory       
+avail||_bit_style_slideshows      
+avail||_bit_style_smock           
+avail||_bit_style_tikipro         
 avail||_bit_themes     
 avail||_bit_users      
-#avail||_bit_util       
 avail||_bit_wiki       
 avail||_bit_xmlrpc     
 avail|southpawz|_phpbb
