@@ -115,6 +115,10 @@ _bit_styles_release -d themes/styles \
 	&_bit_style_olfactory \
 	&_bit_style_slideshows
 
+# select the core theme
+_bit_style_core -d themes/styles \
+	&_bit_style_native
+
 # make all styles easily accessible
 styles                      -d styles             _bit_styles
 
@@ -248,7 +252,7 @@ bitweavercore _root \
 	&_bit_storage \
 	&_bit_temp \
 	&_bit_themes \
-		&_bit_style_native \
+		&_bit_style_core \
 	&_bit_users \
 	&_bit_util \
 		&_adodb \
