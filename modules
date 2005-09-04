@@ -248,6 +248,7 @@ bitweavercore _root \
 	&_bit_storage \
 	&_bit_temp \
 	&_bit_themes \
+		&_bit_style_native \
 	&_bit_users \
 	&_bit_util \
 		&_adodb \
