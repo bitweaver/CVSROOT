@@ -264,8 +264,8 @@ bitweavercore _root \
 	&_bit_util \
 		&_adodb \
 		&_geshi \
-		&_smarty
-		&_xmlrpc \
+		&_smarty \
+		&_xmlrpc 
 
 
 
