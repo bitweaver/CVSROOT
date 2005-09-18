@@ -150,6 +150,11 @@ _phpbb                      -d phpbb              _phpbb
 # wysiwyg editor
 _tinymce                    -d tinymce            _tinymce
 
+# http://sf.net/projects/phpxmlrpc/
+# XML-RPC for PHP
+# licence BSD
+_xmlrpc                     -d util/xmlrpc        _xmlrpc
+
 # We like to export the sample directory
 sample &_bit_sample
 
@@ -193,6 +198,7 @@ bitweaver _root \
 		&_adodb \
 		&_geshi \
 		&_smarty \
+		&_xmlrpc \
 	&_phpbb \
 	&_tinymce
 
@@ -238,6 +244,7 @@ bitweaverdev _root \
 		&_adodb \
 		&_geshi \
 		&_smarty \
+		&_xmlrpc \
 	&_bit_wiki \
 	&_bit_xmlrpc \
 	&_phpbb \
@@ -258,6 +265,7 @@ bitweavercore _root \
 		&_adodb \
 		&_geshi \
 		&_smarty
+		&_xmlrpc \
 
 
 
