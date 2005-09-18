@@ -104,7 +104,6 @@ _bit_styles_release -d themes/styles \
 	&_bit_style_buckyball \
 	&_bit_style_chemokine \
 	&_bit_style_clean \
-#	&_bit_style_fifty_percent \
 	&_bit_style_firebird \
 	&_bit_style_interleukin \
 	&_bit_style_jill \
@@ -114,6 +113,7 @@ _bit_styles_release -d themes/styles \
 	&_bit_style_native \
 	&_bit_style_olfactory \
 	&_bit_style_slideshows
+#	&_bit_style_fifty_percent \
 
 # select the core theme
 _bit_style_core -d themes/styles \
