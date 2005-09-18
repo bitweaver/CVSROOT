@@ -35,6 +35,7 @@ _bit_calendar               -d calendar           _bit_calendar
 _bit_cart                   -d bitcart            _bit_cart
 _bit_categories             -d categories         _bit_categories
 _bit_commerce               -d commerce           _bit_commerce
+_bit_debug		    -d debug		  _bit_debug
 _bit_doc                    -d doc                _bit_doc
 _bit_fisheye                -d fisheye            _bit_fisheye
 _bit_galaxia                -d galaxia            _bit_galaxia
@@ -209,6 +210,7 @@ bitweaverdev _root \
 	&_bit_calendar \
 	&_bit_categories \
 	&_bit_commerce \
+	&_bit_debug \
 	&_bit_doc \
 	&_bit_fisheye \
 	&_bit_galaxia \
@@ -277,7 +279,6 @@ bitweavercore _root \
 #_bit_chat -d chat _bit_chat
 #_bit_contacts -d contacts _bit_contacts
 #_bit_dcs -d dcs _bit_dcs
-#_bit_debug -d debug _bit_debug
 #_bit_directory -d directory _bit_directory
 #_bit_drawings -d drawings _bit_drawings
 #_bit_ephemerides -d ephemerides _bit_ephemerides
