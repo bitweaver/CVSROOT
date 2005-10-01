@@ -249,6 +249,7 @@ bitweaverdev _root \
 	&_bit_themes \
 		&_bit_styles \
 	&_bit_users \
+	&_bit_unit \
 	&_bit_util \
 		&_adodb \
 		&_geshi \
