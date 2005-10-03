@@ -204,6 +204,7 @@ bitweaver _root \
 	&_bit_util \
 		&_adodb \
 		&_geshi \
+		&_jscalendar \
 		&_smarty \
 		&_xmlrpc \
 	&_phpbb \
@@ -253,6 +254,7 @@ bitweaverdev _root \
 	&_bit_util \
 		&_adodb \
 		&_geshi \
+		&_jscalendar \
 		&_smarty \
 		&_xmlrpc \
 	&_bit_wiki \
@@ -273,9 +275,7 @@ bitweavercore _root \
 	&_bit_users \
 	&_bit_util \
 		&_adodb \
-		&_geshi \
 		&_smarty \
-		&_xmlrpc 
 
 
 
