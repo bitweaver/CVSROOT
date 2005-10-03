@@ -275,7 +275,7 @@ bitweavercore _root \
 	&_bit_users \
 	&_bit_util \
 		&_adodb \
-		&_smarty \
+		&_smarty
 
 
 
