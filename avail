@@ -16,6 +16,7 @@ avail||_bit_kernel
 avail||_bit_languages  
 avail||_bit_liberty    
 avail||_bit_mapper     
+avail||_bit_map     
 avail||_bit_messages   
 avail||_bit_multisites 
 avail||_bit_nexus      

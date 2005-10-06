@@ -47,6 +47,7 @@ _bit_irlist                 -d irlist                 _bit_irlist
 _bit_kernel                 -d kernel                 _bit_kernel
 _bit_languages              -d languages              _bit_languages
 _bit_liberty                -d liberty                _bit_liberty
+_bit_map                    -d map                    _bit_map
 _bit_mapper                 -d mapper                 _bit_mapper
 _bit_messages               -d messages               _bit_messages
 _bit_multisites             -d multisites             _bit_multisites
