@@ -173,6 +173,7 @@ sample &_bit_sample
 #-#-# Released modules
 bitweaver _root \
 	&_bit_blogs \
+	&_bit_calendar \
 	&_bit_categories \
 	&_bit_fisheye \
 	&_bit_galaxia \
