@@ -34,6 +34,7 @@ _bit_blogs                  -d blogs                  _bit_blogs
 _bit_calendar               -d calendar               _bit_calendar
 _bit_cart                   -d bitcart                _bit_cart
 _bit_categories             -d categories             _bit_categories
+_bit_chatterbox             -d chatterbox             _bit_chatterbox
 _bit_commerce               -d commerce               _bit_commerce
 _bit_debug                  -d debug                  _bit_debug
 _bit_doc                    -d doc                    _bit_doc
@@ -220,6 +221,7 @@ bitweaverdev _root \
 	&_bit_blogs \
 	&_bit_calendar \
 	&_bit_categories \
+	&_bit_chatterbox \
 	&_bit_commerce \
 	&_bit_debug \
 	&_bit_doc \
