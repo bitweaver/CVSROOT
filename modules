@@ -10,7 +10,7 @@
 #	-t prog		Run "prog" on "cvs rtag" of module.
 #	-u prog		Run "prog" on "cvs update" of module.
 #	-d dir		Place module in directory "dir" instead of module name.
-#	-l		Top-level directory only -- do not recurse.
+#	-l			Top-level directory only -- do not recurse.
 #
 # NOTE:  If you change any of the "Run" options above, you'll have to
 # release and re-checkout any working directories of these modules.
@@ -101,6 +101,7 @@ _bit_style_olfactory        -d olfactory              _bit_styles/olfactory
 _bit_style_slideshows       -d slideshows             _bit_styles/slideshows
 _bit_style_smock            -d smock                  _bit_styles/smock
 _bit_style_tikipro          -d tikipro                _bit_styles/tikipro
+_bit_style_ygg              -d ygg                    _bit_styles/ygg
 
 # select the usable themes
 _bit_styles_release -d themes/styles \
@@ -118,6 +119,7 @@ _bit_styles_release -d themes/styles \
 	&_bit_style_mambo \
 	&_bit_style_native \
 	&_bit_style_olfactory \
+	&_bit_style_ygg \
 	&_bit_style_slideshows
 #	&_bit_style_fifty_percent \
 
