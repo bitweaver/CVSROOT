@@ -176,6 +176,7 @@ sample &_bit_sample
 
 #-#-# Released modules
 bitweaver _root \
+	&_bit_articles \
 	&_bit_blogs \
 	&_bit_calendar \
 	&_bit_categories \
@@ -193,6 +194,7 @@ bitweaver _root \
 	&_bit_newsletters \
 	&_bit_nexus \
 	&_bit_pdf \
+	&_bit_pigeonholes \
 	&_bit_quicktags \
 	&_bit_quota \
 	&_bit_rss \
