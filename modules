@@ -42,7 +42,7 @@ _bit_fisheye                -d fisheye                _bit_fisheye
 _bit_galaxia                -d galaxia                _bit_galaxia
 _bit_gallery2               -d gallery2               _bit_gallery2
 _bit_gatekeeper             -d gatekeeper             _bit_gatekeeper
-_bit_genealogy				-d genealogy              _bit_genealogy
+_bit_phpgedview				-d phpgedview              _bit_phpgedview
 _bit_hotwords               -d hotwords               _bit_hotwords
 _bit_install                -d install                _bit_install
 _bit_irlist                 -d irlist                 _bit_irlist
@@ -234,7 +234,7 @@ bitweaverdev _root \
 	&_bit_galaxia \
 	&_bit_gallery2 \
 	&_bit_gatekeeper \
-	&_bit_genealogy \
+	&_bit_phpgedview \
 	&_bit_hotwords \
 	&_bit_install \
 	&_bit_irlist \
