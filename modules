@@ -35,6 +35,7 @@ _bit_calendar               -d calendar               _bit_calendar
 _bit_cart                   -d bitcart                _bit_cart
 _bit_categories             -d categories             _bit_categories
 _bit_chatterbox             -d chatterbox             _bit_chatterbox
+_bit_clucene				-d clucene                _bit_clucene
 _bit_commerce               -d commerce               _bit_commerce
 _bit_contacts               -d contacts               _bit_contacts
 _bit_debug                  -d debug                  _bit_debug
@@ -230,6 +231,7 @@ bitweaverdev _root \
 	&_bit_calendar \
 	&_bit_categories \
 	&_bit_chatterbox \
+	&_bit_clucene \
 	&_bit_commerce \
 	&_bit_contacts \
 	&_bit_debug \
