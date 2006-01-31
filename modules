@@ -74,6 +74,7 @@ _bit_styles                 -d themes/styles          _bit_styles
 _bit_storage                -d storage                _bit_storage
 _bit_temp                   -d temp                   _bit_temp
 _bit_themes                 -d themes                 _bit_themes
+_bit_tidbits                -d tidbits                _bit_tidbits
 _bit_users                  -d users                  _bit_users
 _bit_unit                   -d unit                   _bit_unit
 _bit_util                   -d util                   _bit_util
@@ -212,6 +213,7 @@ bitweaver _root \
 	&_bit_temp \
 	&_bit_themes \
 		&_bit_styles_release \
+	&_bit_tidbits \
 	&_bit_users \
 	&_bit_wiki \
 	&_bit_xmlrpc \
@@ -269,6 +271,7 @@ bitweaverdev _root \
 	&_bit_temp \
 	&_bit_themes \
 		&_bit_styles \
+	&_bit_tidbits \
 	&_bit_users \
 	&_bit_unit \
 	&_bit_util \
