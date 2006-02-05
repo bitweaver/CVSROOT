@@ -27,7 +27,7 @@
 # If it does not work, try to disable $xml_rpc in the configuration section
 # below.
 #
-# $Id: ciabot.pl,v 1.1 2005/06/17 21:34:51 bitweaver Exp $
+# $Id: ciabot.pl,v 1.2 2006/02/05 14:54:49 spiderr Exp $
 
 use strict;
 use vars qw ($project $from_email $dest_email $rpc_uri @sendmail $sync_delay
@@ -45,7 +45,7 @@ $project = 'bitweaver';
 $from_email = 'spiderr@users.sourceforge.net';
 
 # Mail all reports to this address.
-$dest_email = 'cia@navi.cx';
+$dest_email = 'cia@cia.navi.cx';
 
 # If using XML-RPC, connect to this URI.
 $rpc_uri = 'http://cia.navi.cx/RPC2';
