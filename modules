@@ -60,6 +60,7 @@ _bit_newsletters 			-d newsletters 			  _bit_newsletters
 _bit_nexus                  -d nexus                  _bit_nexus
 _bit_pdf                    -d pdf                    _bit_pdf
 _bit_pigeonholes            -d pigeonholes            _bit_pigeonholes
+_bit_protector              -d protector              _bit_protector
 _bit_quicktags              -d quicktags              _bit_quicktags
 _bit_quota                  -d quota                  _bit_quota
 _bit_rss                    -d rss                    _bit_rss
@@ -257,6 +258,7 @@ bitweaverdev _root \
 	&_bit_nexus \
 	&_bit_pdf \
 	&_bit_pigeonholes \
+	&_bit_protector \
 	&_bit_quicktags \
 	&_bit_quota \
 	&_bit_rss \
