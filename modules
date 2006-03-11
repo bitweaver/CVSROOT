@@ -84,6 +84,7 @@ _bit_unit                   -d unit                   _bit_unit
 _bit_util                   -d util                   _bit_util
 _bit_wiki                   -d wiki                   _bit_wiki
 _bit_xmlrpc                 -d xmlrpc                 _bit_xmlrpc
+_bit_zend                   -d zend                   _bit_zend
 
 
 
@@ -222,6 +223,7 @@ bitweaver _root \
 	&_bit_users \
 	&_bit_wiki \
 	&_bit_xmlrpc \
+	&_bit_zend \
 	&_bit_util \
 		&_adodb \
 		&_geshi \
@@ -291,6 +293,7 @@ bitweaverdev _root \
 		&_smarty \
 		&_xmlrpc \
 	&_bit_wiki \
+	&_bit_zend \
 	&_bit_xmlrpc \
 	&_phpbb \
 	&_tinymce
