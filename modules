@@ -35,7 +35,6 @@ _bit_calendar               -d calendar               _bit_calendar
 _bit_cart                   -d bitcart                _bit_cart
 _bit_categories             -d categories             _bit_categories
 _bit_chatterbox             -d chatterbox             _bit_chatterbox
-_bit_clucene				-d clucene                _bit_clucene
 _bit_commerce               -d commerce               _bit_commerce
 _bit_contacts               -d contacts               _bit_contacts
 _bit_debug                  -d debug                  _bit_debug
@@ -52,6 +51,7 @@ _bit_irlist                 -d irlist                 _bit_irlist
 _bit_kernel                 -d kernel                 _bit_kernel
 _bit_languages              -d languages              _bit_languages
 _bit_liberty                -d liberty                _bit_liberty
+_bit_lucene					-d lucene                 _bit_lucene
 _bit_mapper                 -d mapper                 _bit_mapper
 _bit_messages               -d messages               _bit_messages
 _bit_meta                   -d meta                   _bit_meta
@@ -135,7 +135,7 @@ _bit_styles_release -d themes/styles \
 
 # select the core theme
 _bit_style_core -d themes/styles \
-	&_bit_style_native
+	&_bit_style_basic
 
 # make all styles easily accessible
 styles                      -d styles                 _bit_styles
@@ -239,7 +239,6 @@ bitweaverdev _root \
 	&_bit_calendar \
 	&_bit_categories \
 	&_bit_chatterbox \
-	&_bit_clucene \
 	&_bit_commerce \
 	&_bit_contacts \
 	&_bit_debug \
@@ -256,6 +255,7 @@ bitweaverdev _root \
 	&_bit_kernel \
 	&_bit_languages \
 	&_bit_liberty \
+	&_bit_lucene \
 	&_bit_mapper \
 	&_bit_messages \
 	&_bit_meta \

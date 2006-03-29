@@ -5,7 +5,6 @@ avail||_bit_calendar
 avail||_bit_cart
 avail||_bit_categories
 avail||_bit_chatterbox
-avail||_bit_clucene
 avail||_bit_commerce
 avail||_bit_contacts
 avail||_bit_doc
@@ -20,6 +19,7 @@ avail||_bit_install
 avail||_bit_kernel
 avail||_bit_languages
 avail||_bit_liberty
+avail||_bit_lucene
 avail||_bit_mapper
 avail||_bit_map
 avail||_bit_messages
