@@ -84,6 +84,7 @@ _bit_unit                   -d unit                   _bit_unit
 _bit_util                   -d util                   _bit_util
 _bit_wiki                   -d wiki                   _bit_wiki
 _bit_xmlrpc                 -d xmlrpc                 _bit_xmlrpc
+_bit_xupload                -d xupload                _bit_xupload
 _bit_zend                   -d zend                   _bit_zend
 
 
@@ -294,6 +295,7 @@ bitweaverdev _root \
 	&_bit_wiki \
 	&_bit_zend \
 	&_bit_xmlrpc \
+	&_bit_xupload \
 	&_phpbb \
 	&_tinymce
 
