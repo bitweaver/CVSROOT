@@ -31,6 +31,7 @@
 
 _bit_articles               -d articles               _bit_articles
 _bit_blogs                  -d blogs                  _bit_blogs
+_bit_bnspell                -d bnspell                _bit_bnspell
 _bit_calendar               -d calendar               _bit_calendar
 _bit_cart                   -d bitcart                _bit_cart
 _bit_categories             -d categories             _bit_categories
@@ -237,6 +238,7 @@ bitweaver _root \
 bitweaverdev _root \
 	&_bit_articles \
 	&_bit_blogs \
+	&_bit_bnspell \
 	&_bit_calendar \
 	&_bit_categories \
 	&_bit_chatterbox \
