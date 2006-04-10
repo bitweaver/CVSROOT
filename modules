@@ -41,6 +41,7 @@ _bit_contacts               -d contacts               _bit_contacts
 _bit_debug                  -d debug                  _bit_debug
 _bit_doc                    -d doc                    _bit_doc
 _bit_events                 -d events                 _bit_events
+_bit_filevault              -d filevault              _bit_filevault
 _bit_fisheye                -d fisheye                _bit_fisheye
 _bit_galaxia                -d galaxia                _bit_galaxia
 _bit_gallery2               -d gallery2               _bit_gallery2
@@ -247,6 +248,7 @@ bitweaverdev _root \
 	&_bit_debug \
 	&_bit_doc \
 	&_bit_events \
+	&_bit_filevault \
 	&_bit_fisheye \
 	&_bit_galaxia \
 	&_bit_gallery2 \
