@@ -75,6 +75,7 @@ _bit_shoutbox               -d shoutbox               _bit_shoutbox
 _bit_smileys                -d smileys                _bit_smileys
 _bit_stars                  -d stars                  _bit_stars
 _bit_stats                  -d stats                  _bit_stats
+_bit_stencils               -d stencils               _bit_stencils
 _bit_stickies               -d stickies               _bit_stickies
 _bit_storage                -d storage                _bit_storage
 _bit_styles                 -d themes/styles          _bit_styles
@@ -107,6 +108,7 @@ _bit_style_jill             -d jill                   _bit_styles/jill
 _bit_style_july4            -d july4                  _bit_styles/july4
 _bit_style_kraphiti         -d kraphiti               _bit_styles/kraphiti
 _bit_style_lessneat         -d lessneat               _bit_styles/lessneat
+_bit_style_lynx             -d lynx                   _bit_styles/lynx
 _bit_style_mambo            -d mambo                  _bit_styles/mambo
 _bit_style_native           -d native                 _bit_styles/native
 _bit_style_navigo           -d navigo                 _bit_styles/navigo
@@ -129,6 +131,7 @@ _bit_styles_release -d themes/styles \
 	&_bit_style_jill \
 	&_bit_style_july4 \
 	&_bit_style_lessneat \
+	&_bit_style_lynx \
 	&_bit_style_mambo \
 	&_bit_style_native \
 	&_bit_style_olfactory \
@@ -282,6 +285,7 @@ bitweaverdev _root \
 	&_bit_smileys \
 	&_bit_stars \
 	&_bit_stats \
+	&_bit_stencils \
 	&_bit_stickies \
 	&_bit_storage \
 	&_bit_temp \
