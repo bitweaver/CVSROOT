@@ -251,6 +251,7 @@ bitweaverdev _root \
 	&_bit_galaxia \
 	&_bit_gallery2 \
 	&_bit_gatekeeper \
+	&_bit_gmap \
 	&_bit_hotwords \
 	&_bit_install \
 	&_bit_kernel \
