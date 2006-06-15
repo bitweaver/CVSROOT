@@ -43,6 +43,7 @@ _bit_doc                    -d doc                    _bit_doc
 _bit_events                 -d events                 _bit_events
 _bit_filevault              -d filevault              _bit_filevault
 _bit_fisheye                -d fisheye                _bit_fisheye
+_bit_forums 				-d forums                 _bit_forums
 _bit_galaxia                -d galaxia                _bit_galaxia
 _bit_gallery2               -d gallery2               _bit_gallery2
 _bit_gatekeeper             -d gatekeeper             _bit_gatekeeper
@@ -249,6 +250,7 @@ bitweaverdev _root \
 	&_bit_chatterbox \
 	&_bit_commerce \
 	&_bit_fisheye \
+	&_bit_forums \
 	&_bit_galaxia \
 	&_bit_gallery2 \
 	&_bit_gatekeeper \
@@ -394,7 +396,6 @@ bitweavercore _root \
 #_bit_faqs -d faqs _bit_faqs
 #_bit_featured_links -d featured_links _bit_featured_links
 #_bit_filegals -d filegals _bit_filegals
-#_bit_forums -d forums _bit_forums
 #_bit_games -d games _bit_games
 #_bit_google -d google _bit_google
 #_bit_hawhaw -d hawhaw _bit_hawhaw
