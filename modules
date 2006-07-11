@@ -63,8 +63,8 @@ _bit_meta                   -d meta                   _bit_meta
 _bit_multisites             -d multisites             _bit_multisites
 _bit_newsletters 			-d newsletters 			  _bit_newsletters
 _bit_nexus                  -d nexus                  _bit_nexus
-_bit_phpgedview				-d phpgedview             _bit_phpgedview
 _bit_pdf                    -d pdf                    _bit_pdf
+_bit_phpgedview				-d phpgedview             _bit_phpgedview
 _bit_pigeonholes            -d pigeonholes            _bit_pigeonholes
 _bit_polls                  -d polls                  _bit_polls
 _bit_protector              -d protector              _bit_protector
@@ -85,8 +85,9 @@ _bit_styles                 -d themes/styles          _bit_styles
 _bit_temp                   -d temp                   _bit_temp
 _bit_themes                 -d themes                 _bit_themes
 _bit_tidbits                -d tidbits                _bit_tidbits
-_bit_users                  -d users                  _bit_users
+_bit_treasury               -d treasury               _bit_treasury
 _bit_unit                   -d unit                   _bit_unit
+_bit_users                  -d users                  _bit_users
 _bit_util                   -d util                   _bit_util
 _bit_wiki                   -d wiki                   _bit_wiki
 _bit_xmlrpc                 -d xmlrpc                 _bit_xmlrpc
@@ -228,6 +229,7 @@ bitweaver _root \
 	&_bit_themes \
 		&_bit_styles_release \
 	&_bit_tidbits \
+	&_bit_treasury \
 	&_bit_users \
 	&_bit_wiki \
 	&_bit_xmlrpc \
@@ -284,6 +286,7 @@ bitweaverdev _root \
 	&_bit_themes \
 		&_bit_styles_release \
 	&_bit_tidbits \
+	&_bit_treasury \
 	&_bit_users \
 	&_bit_wiki \
 	&_bit_xmlrpc \
@@ -353,6 +356,7 @@ bitweaverall _root \
 	&_bit_themes \
 		&_bit_styles \
 	&_bit_tidbits \
+	&_bit_treasury \
 	&_bit_users \
 	&_bit_unit \
 	&_bit_util \
