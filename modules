@@ -105,6 +105,7 @@ _bit_style_blue_n_gray      -d blue_n_gray            _bit_styles/blue_n_gray
 _bit_style_buckyball        -d buckyball              _bit_styles/buckyball
 _bit_style_chemokine        -d chemokine              _bit_styles/chemokine
 _bit_style_clean            -d clean                  _bit_styles/clean
+_bit_style_essential        -d essential              _bit_styles/essential
 _bit_style_fifty_percent    -d fifty_percent          _bit_styles/fifty_percent
 _bit_style_firebird         -d firebird               _bit_styles/firebird
 _bit_style_interleukin      -d interleukin            _bit_styles/interleukin
@@ -285,6 +286,7 @@ bitweaverdev _root \
 	&_bit_temp \
 	&_bit_themes \
 		&_bit_styles_release \
+		&_bit_style_essential \
 	&_bit_tidbits \
 	&_bit_treasury \
 	&_bit_users \
