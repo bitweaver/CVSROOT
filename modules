@@ -35,6 +35,7 @@ _bit_boards                 -d boards                 _bit_boards
 _bit_bnspell                -d bnspell                _bit_bnspell
 _bit_calendar               -d calendar               _bit_calendar
 _bit_cart                   -d bitcart                _bit_cart
+_bit_cascader               -d cascader               _bit_cascader
 _bit_categories             -d categories             _bit_categories
 _bit_chatterbox             -d chatterbox             _bit_chatterbox
 _bit_commerce               -d commerce               _bit_commerce
@@ -105,6 +106,7 @@ _bit_style_blank            -d blank                  _bit_styles/blank
 _bit_style_blue_n_gray      -d blue_n_gray            _bit_styles/blue_n_gray
 _bit_style_buckyball        -d buckyball              _bit_styles/buckyball
 _bit_style_bwo              -d bwo                    _bit_styles/bwo
+_bit_style_cascader         -d cascader               _bit_styles/cascader
 _bit_style_chemokine        -d chemokine              _bit_styles/chemokine
 _bit_style_clean            -d clean                  _bit_styles/clean
 _bit_style_essential        -d essential              _bit_styles/essential
@@ -131,6 +133,7 @@ _bit_styles_release -d themes/styles \
 	&_bit_style_blank \
 	&_bit_style_blue_n_gray \
 	&_bit_style_buckyball \
+	&_bit_style_cascader \
 	&_bit_style_chemokine \
 	&_bit_style_clean \
 	&_bit_style_firebird \
@@ -202,6 +205,7 @@ bitweaver _root \
 	&_bit_articles \
 	&_bit_blogs \
 	&_bit_calendar \
+	&_bit_cascader \
 	&_bit_categories \
 	&_bit_chatterbox \
 	&_bit_fisheye \
@@ -225,6 +229,7 @@ bitweaver _root \
 	&_bit_search \
 	&_bit_shoutbox \
 	&_bit_smileys \
+	&_bit_stars \
 	&_bit_stats \
 	&_bit_stickies \
 	&_bit_storage \
@@ -253,6 +258,7 @@ bitweaverdev _root \
 	&_bit_boards \
 	&_bit_bnspell \
 	&_bit_calendar \
+	&_bit_cascader \
 	&_bit_categories \
 	&_bit_chatterbox \
 	&_bit_commerce \
@@ -312,6 +318,7 @@ bitweaverall _root \
 	&_bit_boards \
 	&_bit_bnspell \
 	&_bit_calendar \
+	&_bit_cascader \
 	&_bit_categories \
 	&_bit_chatterbox \
 	&_bit_commerce \
