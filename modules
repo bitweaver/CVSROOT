@@ -101,6 +101,9 @@ _bit_zend                   -d zend                   _bit_zend
 
 
 # -=-=-=-=-= themes and styles =-=-=-=-=-
+# only include one icon style in core
+_bit_icon_style_core        -d tango                  _bit_icon_styles/tango
+
 
 # all themes as individual modules
 _bit_style_basic            -d basic                  _bit_styles/basic
@@ -400,6 +403,7 @@ bitweavercore _root \
 	&_bit_storage \
 	&_bit_temp \
 	&_bit_themes \
+		&_bit_icon_style_core \
 		&_bit_style_core \
 	&_bit_users \
 	&_bit_util \
