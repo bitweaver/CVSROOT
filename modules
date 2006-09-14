@@ -102,7 +102,7 @@ _bit_zend                   -d zend                   _bit_zend
 
 # -=-=-=-=-= themes and styles =-=-=-=-=-
 # only include one icon style in core
-_bit_icon_style_core        -d themes/styles/tango    _bit_icon_styles/tango
+_bit_icon_style_core        -d themes/icon_styles/tango _bit_icon_styles/tango
 
 
 # all themes as individual modules
