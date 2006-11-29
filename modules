@@ -43,6 +43,7 @@ _bit_contacts               -d contacts               _bit_contacts
 _bit_debug                  -d debug                  _bit_debug
 _bit_doc                    -d doc                    _bit_doc
 _bit_events                 -d events                 _bit_events
+_bit_fckeditor              -d fckeditor              _bit_fckeditor
 _bit_filevault              -d filevault              _bit_filevault
 _bit_fisheye                -d fisheye                _bit_fisheye
 _bit_forums 				-d forums                 _bit_forums
@@ -267,6 +268,7 @@ bitweaverdev _root \
 	&_bit_categories \
 	&_bit_chatterbox \
 	&_bit_commerce \
+	&_bit_fckeditor \
 	&_bit_fisheye \
 	&_bit_forums \
 	&_bit_galaxia \
@@ -333,6 +335,7 @@ bitweaverall _root \
 	&_bit_debug \
 	&_bit_doc \
 	&_bit_events \
+	&_bit_fckeditor \
 	&_bit_filevault \
 	&_bit_fisheye \
 	&_bit_galaxia \
