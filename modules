@@ -40,6 +40,7 @@ _bit_categories             -d categories             _bit_categories
 _bit_chatterbox             -d chatterbox             _bit_chatterbox
 _bit_commerce               -d commerce               _bit_commerce
 _bit_contacts               -d contacts               _bit_contacts
+_bit_cvsview                -d cvsview                _bit_cvsview
 _bit_debug                  -d debug                  _bit_debug
 _bit_doc                    -d doc                    _bit_doc
 _bit_events                 -d events                 _bit_events
@@ -332,6 +333,7 @@ bitweaverall _root \
 	&_bit_chatterbox \
 	&_bit_commerce \
 	&_bit_contacts \
+	&_bit_cvsview \
 	&_bit_debug \
 	&_bit_doc \
 	&_bit_events \
