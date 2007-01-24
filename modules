@@ -213,7 +213,6 @@ bitweaver _root \
 	&_bit_articles \
 	&_bit_blogs \
 	&_bit_calendar \
-	&_bit_categories \
 	&_bit_chatterbox \
 	&_bit_fisheye \
 	&_bit_galaxia \
