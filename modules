@@ -82,6 +82,7 @@ _bit_sample                 -d sample                 _bit_sample
 _bit_search                 -d search                 _bit_search
 _bit_sheets                 -d sheets                 _bit_sheets
 _bit_shoutbox               -d shoutbox               _bit_shoutbox
+_bit_sitehome               -d sitehome               _bit_sitehome
 _bit_smileys                -d smileys                _bit_smileys
 _bit_stars                  -d stars                  _bit_stars
 _bit_stats                  -d stats                  _bit_stats
@@ -297,6 +298,7 @@ bitweaverdev _root \
 	&_bit_rss \
 	&_bit_search \
 	&_bit_shoutbox \
+	&_bit_sitehome \
 	&_bit_smileys \
 	&_bit_stars \
 	&_bit_superstars \
@@ -374,6 +376,7 @@ bitweaverall _root \
 	&_bit_search \
 	&_bit_sheets \
 	&_bit_shoutbox \
+	&_bit_sitehome \
 	&_bit_smileys \
 	&_bit_stars \
 	&_bit_superstars \
