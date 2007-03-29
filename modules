@@ -77,6 +77,7 @@ _bit_polls                  -d polls                  _bit_polls
 _bit_protector              -d protector              _bit_protector
 _bit_quicktags              -d quicktags              _bit_quicktags
 _bit_quota                  -d quota                  _bit_quota
+_bit_recommends             -d recommends             _bit_recommends
 _bit_rss                    -d rss                    _bit_rss
 _bit_sample                 -d sample                 _bit_sample
 _bit_search                 -d search                 _bit_search
@@ -296,16 +297,17 @@ bitweaverdev _root \
 	&_bit_protector \
 	&_bit_quicktags \
 	&_bit_quota \
+	&_bit_recommends \
 	&_bit_rss \
 	&_bit_search \
 	&_bit_shoutbox \
 	&_bit_sitehome \
 	&_bit_smileys \
 	&_bit_stars \
-	&_bit_superstars \
 	&_bit_stats \
 	&_bit_stickies \
 	&_bit_storage \
+	&_bit_superstars \
 	&_bit_tags \
 	&_bit_temp \
 	&_bit_themes \
@@ -373,6 +375,7 @@ bitweaverall _root \
 	&_bit_protector \
 	&_bit_quicktags \
 	&_bit_quota \
+	&_bit_recommends \
 	&_bit_rss \
 	&_bit_sample \
 	&_bit_search \
@@ -381,10 +384,10 @@ bitweaverall _root \
 	&_bit_sitehome \
 	&_bit_smileys \
 	&_bit_stars \
-	&_bit_superstars \
 	&_bit_stats \
 	&_bit_stickies \
 	&_bit_storage \
+	&_bit_superstars \
 	&_bit_tags \
 	&_bit_temp \
 	&_bit_themes \
