@@ -70,6 +70,7 @@ _bit_meta                   -d meta                   _bit_meta
 _bit_multisites             -d multisites             _bit_multisites
 _bit_newsletters 			-d newsletters 			  _bit_newsletters
 _bit_nexus                  -d nexus                  _bit_nexus
+_bit_packager               -d packager               _bit_packager
 _bit_pdf                    -d pdf                    _bit_pdf
 _bit_phpgedview				-d phpgedview             _bit_phpgedview
 _bit_pigeonholes            -d pigeonholes            _bit_pigeonholes
@@ -292,6 +293,7 @@ bitweaverdev _root \
 	&_bit_multisites \
 	&_bit_newsletters \
 	&_bit_nexus \
+	&_bit_packager \
 	&_bit_pdf \
 	&_bit_pigeonholes \
 	&_bit_protector \
@@ -368,6 +370,7 @@ bitweaverall _root \
 	&_bit_multisites \
 	&_bit_newsletters \
 	&_bit_nexus \
+	&_bit_packager \
 	&_bit_pdf \
 	&_bit_phpgedview \
 	&_bit_pigeonholes \
