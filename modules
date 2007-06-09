@@ -194,7 +194,7 @@ _geshi                      -d util/geshi             _geshi
 # forums
 _phpbb                      -d phpbb                  _phpbb
 
-# http://tinymce.moxiecode.com
+# http:// not sure where this came from
 # javascript calendar
 _jscalendar                 -d util/jscalendar        _jscalendar
 
@@ -218,13 +218,10 @@ sample &_bit_sample
 bitweaver _root \
 	&_bit_articles \
 	&_bit_blogs \
+	&_bit_boards \
 	&_bit_calendar \
-	&_bit_chatterbox \
 	&_bit_fisheye \
-	&_bit_galaxia \
-	&_bit_gallery2 \
 	&_bit_gatekeeper \
-	&_bit_hotwords \
 	&_bit_install \
 	&_bit_kernel \
 	&_bit_languages \
@@ -237,6 +234,7 @@ bitweaver _root \
 	&_bit_pigeonholes \
 	&_bit_quicktags \
 	&_bit_quota \
+	&_bit_recommends \
 	&_bit_rss \
 	&_bit_search \
 	&_bit_shoutbox \
@@ -245,6 +243,7 @@ bitweaver _root \
 	&_bit_stats \
 	&_bit_stickies \
 	&_bit_storage \
+	&_bit_tags \
 	&_bit_temp \
 	&_bit_themes \
 		&_bit_icon_styles \
@@ -253,18 +252,15 @@ bitweaver _root \
 	&_bit_treasury \
 	&_bit_users \
 	&_bit_wiki \
-	&_bit_xmlrpc \
-	&_bit_zend \
 	&_bit_util \
 		&_adodb \
 		&_geshi \
 		&_jscalendar \
 		&_smarty \
 		&_xmlrpc \
-	&_phpbb \
-	&_tinymce
+	&_bit_fckeditor
 
-#-#-# Released modules
+#-#-# Modules in development
 bitweaverdev _root \
 	&_bit_articles \
 	&_bit_blogs \
@@ -333,7 +329,7 @@ bitweaverdev _root \
 	&_tinymce
 
 
-#-#-# all modules that are currently in use or developement
+#-#-# All modules that are currently in use or developement
 bitweaverall _root \
 	&_bit_articles \
 	&_bit_blogs \
