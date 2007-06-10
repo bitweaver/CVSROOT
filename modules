@@ -44,7 +44,6 @@ _bit_cvsview                -d cvsview                _bit_cvsview
 _bit_debug                  -d debug                  _bit_debug
 _bit_doc                    -d doc                    _bit_doc
 _bit_events                 -d events                 _bit_events
-_bit_fckeditor              -d fckeditor              _bit_fckeditor
 _bit_filevault              -d filevault              _bit_filevault
 _bit_fisheye                -d fisheye                _bit_fisheye
 _bit_forums 				-d forums                 _bit_forums
@@ -174,37 +173,38 @@ styles                      -d styles                 _bit_styles
 
 # -=-=-=-=-= 3rd party packages =-=-=-=-=-
 
-# http://php.weblogs.com/ADODB
 # DB Abstraction Layer
 # licence LGPL + BSD
-#_adodb		_adodb
+# http://php.weblogs.com/ADODB
 _adodb                      -d util/adodb             _adodb
 
-# http://smarty.php.net
 # template and cache engine
 # Licence LGPL
+# http://smarty.php.net
 _smarty                     -d util/smarty            _smarty
 
-# http://qbnz.com/highlighter
 # template and cache engine
 # Licence LGPL
+# http://qbnz.com/highlighter
 _geshi                      -d util/geshi             _geshi
 
-# http://www.phpbb.com
 # forums
+# http://www.phpbb.com
 _phpbb                      -d phpbb                  _phpbb
 
-# http:// not sure where this came from
 # javascript calendar
+# http:// not sure where this came from
 _jscalendar                 -d util/jscalendar        _jscalendar
 
+# wysiwyg editors
 # http://tinymce.moxiecode.com
-# wysiwyg editor
 _tinymce                    -d tinymce                _tinymce
+# http://www.fckeditor.net
+_bit_fckeditor              -d fckeditor              _bit_fckeditor
 
-# http://sf.net/projects/phpxmlrpc/
 # XML-RPC for PHP
 # licence BSD
+# http://sf.net/projects/phpxmlrpc/
 _xmlrpc                     -d util/xmlrpc            _xmlrpc
 
 # We like to export the sample directory
@@ -220,6 +220,7 @@ bitweaver _root \
 	&_bit_blogs \
 	&_bit_boards \
 	&_bit_calendar \
+	&_bit_events \
 	&_bit_fisheye \
 	&_bit_gatekeeper \
 	&_bit_install \
