@@ -249,7 +249,6 @@ bitweaver _root \
 	&_bit_themes \
 		&_bit_icon_styles \
 		&_bit_styles_release \
-	&_bit_tidbits \
 	&_bit_treasury \
 	&_bit_users \
 	&_bit_wiki \
