@@ -228,7 +228,6 @@ bitweaver _root \
 	&_bit_languages \
 	&_bit_liberty \
 	&_bit_messages \
-	&_bit_multisites \
 	&_bit_newsletters \
 	&_bit_nexus \
 	&_bit_pdf \
