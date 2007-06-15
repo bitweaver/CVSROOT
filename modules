@@ -200,7 +200,7 @@ _jscalendar                 -d util/jscalendar        _jscalendar
 # http://tinymce.moxiecode.com
 _tinymce                    -d tinymce                _tinymce
 # http://www.fckeditor.net
-_bit_fckeditor              -d fckeditor              _bit_fckeditor
+_fckeditor                  -d fckeditor              _fckeditor
 
 # XML-RPC for PHP
 # licence BSD
