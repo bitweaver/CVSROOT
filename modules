@@ -257,7 +257,7 @@ bitweaver _root \
 		&_jscalendar \
 		&_smarty \
 		&_xmlrpc \
-	&_bit_fckeditor
+	&_fckeditor
 
 #-#-# Modules in development
 bitweaverdev _root \
@@ -270,7 +270,6 @@ bitweaverdev _root \
 	&_bit_categories \
 	&_bit_chatterbox \
 	&_bit_commerce \
-	&_bit_fckeditor \
 	&_bit_fisheye \
 	&_bit_forums \
 	&_bit_galaxia \
@@ -324,6 +323,7 @@ bitweaverdev _root \
 		&_jscalendar \
 		&_smarty \
 		&_xmlrpc \
+	&_fckeditor \
 	&_phpbb \
 	&_tinymce
 
@@ -344,7 +344,6 @@ bitweaverall _root \
 	&_bit_debug \
 	&_bit_doc \
 	&_bit_events \
-	&_bit_fckeditor \
 	&_bit_filevault \
 	&_bit_fisheye \
 	&_bit_galaxia \
@@ -409,6 +408,7 @@ bitweaverall _root \
 	&_bit_xmlrpc \
 	&_bit_xupload \
 	&_bit_yellowpages \
+	&_fckeditor \
 	&_phpbb \
 	&_tinymce
 
