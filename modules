@@ -115,6 +115,7 @@ _bit_icon_style_core        -d themes/icon_styles/tango _bit_icon_styles/tango
 
 # all themes as individual modules
 _bit_style_basic            -d basic                  _bit_styles/basic
+_bit_style_bitweaver2       -d bitweaver2             _bit_styles/bitweaver2
 _bit_style_blank            -d blank                  _bit_styles/blank
 _bit_style_blue_n_gray      -d blue_n_gray            _bit_styles/blue_n_gray
 _bit_style_buckyball        -d buckyball              _bit_styles/buckyball
