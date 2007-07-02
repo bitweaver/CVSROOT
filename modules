@@ -134,6 +134,7 @@ _bit_style_lessneat         -d lessneat               _bit_styles/lessneat
 _bit_style_lynx             -d lynx                   _bit_styles/lynx
 _bit_style_mambo            -d mambo                  _bit_styles/mambo
 _bit_style_native           -d native                 _bit_styles/native
+_bit_style_native2          -d native2                _bit_styles/native2
 _bit_style_navigo           -d navigo                 _bit_styles/navigo
 _bit_style_olfactory        -d olfactory              _bit_styles/olfactory
 _bit_style_slideshows       -d slideshows             _bit_styles/slideshows
@@ -158,6 +159,7 @@ _bit_styles_release -d themes/styles \
 	&_bit_style_lynx \
 	&_bit_style_mambo \
 	&_bit_style_native \
+	&_bit_style_native2 \
 	&_bit_style_olfactory \
 	&_bit_style_ygg \
 	&_bit_style_slideshows
