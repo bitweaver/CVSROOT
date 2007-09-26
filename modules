@@ -54,6 +54,7 @@ _bit_geo                    -d geo                    _bit_geo
 _bit_gigaupload             -d gigaupload             _bit_gigaupload
 _bit_gmap                   -d gmap                   _bit_gmap
 _bit_hotwords               -d hotwords               _bit_hotwords
+_bit_hype                   -d hype                   _bit_hype
 _bit_icon_styles            -d themes/icon_styles     _bit_icon_styles
 _bit_install                -d install                _bit_install
 _bit_ilike                  -d ilike                  _bit_ilike
@@ -283,6 +284,7 @@ bitweaverdev _root \
 	&_bit_geo \
 	&_bit_gmap \
 	&_bit_hotwords \
+	&_bit_hype \
 	&_bit_ilike \
 	&_bit_install \
 	&_bit_kernel \
@@ -358,6 +360,7 @@ bitweaverall _root \
 	&_bit_geo \
 	&_bit_gmap \
 	&_bit_hotwords \
+	&_bit_hype \
 	&_bit_ilike \
 	&_bit_install \
 	&_bit_irlist \
