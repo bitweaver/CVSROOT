@@ -78,6 +78,7 @@ _bit_polls                  -d polls                  _bit_polls
 _bit_protector              -d protector              _bit_protector
 _bit_quicktags              -d quicktags              _bit_quicktags
 _bit_quota                  -d quota                  _bit_quota
+_bit_reblog                 -d reblog                 _bit_reblog
 _bit_recommends             -d recommends             _bit_recommends
 _bit_rss                    -d rss                    _bit_rss
 _bit_sample                 -d sample                 _bit_sample
@@ -301,6 +302,7 @@ bitweaverdev _root \
 	&_bit_protector \
 	&_bit_quicktags \
 	&_bit_quota \
+	&_bit_reblog \
 	&_bit_recommends \
 	&_bit_rss \
 	&_bit_search \
@@ -382,6 +384,7 @@ bitweaverall _root \
 	&_bit_protector \
 	&_bit_quicktags \
 	&_bit_quota \
+	&_bit_reblog \
 	&_bit_recommends \
 	&_bit_rss \
 	&_bit_sample \
