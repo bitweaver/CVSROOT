@@ -149,25 +149,11 @@ _bit_style_ygg              -d ygg                    _bit_styles/ygg
 _bit_styles_release -d themes/styles \
 	&_bit_style_basic \
 	&_bit_style_blank \
-	&_bit_style_blue_n_gray \
-	&_bit_style_buckyball \
 	&_bit_style_cascader \
-	&_bit_style_chemokine \
 	&_bit_style_clean \
 	&_bit_style_eclipse \
-	&_bit_style_firebird \
-	&_bit_style_interleukin \
-	&_bit_style_jill \
-	&_bit_style_july4 \
 	&_bit_style_lessneat \
 	&_bit_style_lynx \
-	&_bit_style_mambo \
-	&_bit_style_native \
-	&_bit_style_native2 \
-	&_bit_style_olfactory \
-	&_bit_style_slideshows
-	&_bit_style_ygg \
-#	&_bit_style_fifty_percent \
 
 # select the core theme
 _bit_style_core -d themes/styles \
