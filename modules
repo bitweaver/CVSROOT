@@ -53,6 +53,7 @@ _bit_gatekeeper             -d gatekeeper             _bit_gatekeeper
 _bit_geo                    -d geo                    _bit_geo
 _bit_gigaupload             -d gigaupload             _bit_gigaupload
 _bit_gmap                   -d gmap                   _bit_gmap
+_bit_groups                 -d groups                 _bit_groups
 _bit_hotwords               -d hotwords               _bit_hotwords
 _bit_hype                   -d hype                   _bit_hype
 _bit_icon_styles            -d themes/icon_styles     _bit_icon_styles
@@ -62,11 +63,13 @@ _bit_irlist                 -d irlist                 _bit_irlist
 _bit_kernel                 -d kernel                 _bit_kernel
 _bit_languages              -d languages              _bit_languages
 _bit_liberty                -d liberty                _bit_liberty
+_bit_libertysecure          -d libertysecure          _bit_libertysecure
 _bit_lucene					-d lucene                 _bit_lucene
 _bit_listings				-d listings               _bit_listings
 _bit_mapper                 -d mapper                 _bit_mapper
 _bit_messages               -d messages               _bit_messages
 _bit_meta                   -d meta                   _bit_meta
+_bit_moderation             -d moderation             _bit_moderation
 _bit_multisites             -d multisites             _bit_multisites
 _bit_newsletters 			-d newsletters 			  _bit_newsletters
 _bit_nexus                  -d nexus                  _bit_nexus
@@ -271,6 +274,7 @@ bitweaverdev _root \
 	&_bit_gatekeeper \
 	&_bit_geo \
 	&_bit_gmap \
+	&_bit_groups \
 	&_bit_hotwords \
 	&_bit_hype \
 	&_bit_ilike \
@@ -278,8 +282,10 @@ bitweaverdev _root \
 	&_bit_kernel \
 	&_bit_languages \
 	&_bit_liberty \
+	&_bit_libertysecure \
 	&_bit_lucene \
 	&_bit_messages \
+	&_bit_moderation \
 	&_bit_multisites \
 	&_bit_newsletters \
 	&_bit_nexus \
@@ -348,6 +354,7 @@ bitweaverall _root \
 	&_bit_gigaupload \
 	&_bit_geo \
 	&_bit_gmap \
+	&_bit_groups \
 	&_bit_hotwords \
 	&_bit_hype \
 	&_bit_ilike \
@@ -356,10 +363,12 @@ bitweaverall _root \
 	&_bit_kernel \
 	&_bit_languages \
 	&_bit_liberty \
+	&_bit_libertysecure \
 	&_bit_lucene \
 	&_bit_mapper \
 	&_bit_messages \
 	&_bit_meta \
+	&_bit_moderation \
 	&_bit_multisites \
 	&_bit_newsletters \
 	&_bit_nexus \
