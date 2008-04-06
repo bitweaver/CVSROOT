@@ -97,6 +97,7 @@ _bit_stickies               -d stickies               _bit_stickies
 _bit_storage                -d storage                _bit_storage
 _bit_styles                 -d themes/styles          _bit_styles
 _bit_superstars             -d superstars             _bit_superstars
+_bit_switchboard            -d switchboard            _bit_switchboard
 _bit_tags                   -d tags                   _bit_tags
 _bit_temp                   -d temp                   _bit_temp
 _bit_themes                 -d themes                 _bit_themes
@@ -306,7 +307,7 @@ bitweaverdev _root \
 	&_bit_stats \
 	&_bit_stickies \
 	&_bit_storage \
-	&_bit_superstars \
+	&_bit_switchboard \
 	&_bit_tags \
 	&_bit_temp \
 	&_bit_themes \
@@ -394,6 +395,7 @@ bitweaverall _root \
 	&_bit_stickies \
 	&_bit_storage \
 	&_bit_superstars \
+	&_bit_switchboard \
 	&_bit_tags \
 	&_bit_temp \
 	&_bit_themes \
