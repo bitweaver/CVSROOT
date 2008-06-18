@@ -305,6 +305,7 @@ bitweaverdev _root \
 	&_bit_smileys \
 	&_bit_stars \
 	&_bit_stats \
+	&_bit_stencils \
 	&_bit_stickies \
 	&_bit_storage \
 	&_bit_switchboard \
@@ -392,6 +393,7 @@ bitweaverall _root \
 	&_bit_smileys \
 	&_bit_stars \
 	&_bit_stats \
+	&_bit_stencils \
 	&_bit_stickies \
 	&_bit_storage \
 	&_bit_superstars \
