@@ -220,6 +220,8 @@ bitweaver _root \
 	&_bit_events \
 	&_bit_fisheye \
 	&_bit_gatekeeper \
+	&_bit_geo \
+	&_bit_gmap \
 	&_bit_install \
 	&_bit_kernel \
 	&_bit_languages \
