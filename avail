@@ -79,14 +79,14 @@ avail||_xmlrpc
 avail|lsces|_bit_commerce
 
 # bitweaver core modules - only selectively allow users to access these
-avail|lsces|_root
-avail|lsces|_bit_install
-avail|lsces|_bit_kernel
-avail|lsces|_bit_languages
-avail|lsces|_bit_liberty
-avail|lsces|_bit_storage
-avail|lsces|_bit_temp
-avail|lsces|_bit_themes
-avail|lsces|_bit_users
+avail|lsces,laetzer|_root
+avail|lsces,laetzer|_bit_install
+avail|lsces,laetzer|_bit_kernel
+avail|lsces,laetzer|_bit_languages
+avail|lsces,laetzer|_bit_liberty
+avail|lsces,laetzer|_bit_storage
+avail|lsces,laetzer|_bit_temp
+avail|lsces,laetzer|_bit_themes
+avail|lsces,laetzer|_bit_users
 
 # vim:set ft=conf:
