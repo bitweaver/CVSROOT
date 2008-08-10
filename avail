@@ -89,4 +89,9 @@ avail|lsces,laetzer|_bit_temp
 avail|lsces,laetzer|_bit_themes
 avail|lsces,laetzer|_bit_users
 
+# custom modules in our CVS
+avail|lsces|_bit_irlist
+avail|lsces|_bit_mapper
+avail|lsces|_bit_phpgedview
+
 # vim:set ft=conf:
