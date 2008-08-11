@@ -32,8 +32,10 @@ avail||_bit_hotwords
 avail||_bit_hype
 avail||_bit_icon_styles
 avail||_bit_ilike
+avail||_bit_irlist
 avail||_bit_libertysecure
 avail||_bit_lucene
+avail||_bit_mapper
 avail||_bit_messages
 avail||_bit_moderation
 avail||_bit_multisites
@@ -41,6 +43,7 @@ avail||_bit_newsletters
 avail||_bit_nexus
 avail||_bit_packager
 avail||_bit_pdf
+avail||_bit_phpgedview
 avail||_bit_pigeonholes
 avail||_bit_protector
 avail||_bit_quicktags
