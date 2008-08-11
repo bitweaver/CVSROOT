@@ -98,3 +98,5 @@ avail|lsces|_bit_mapper
 avail|lsces|_bit_phpgedview
 
 # vim:set ft=conf:
+# leave a trailing blank line so says the docs
+
