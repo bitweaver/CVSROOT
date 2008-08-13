@@ -82,15 +82,15 @@ avail||_xmlrpc
 avail|lsces|_bit_commerce
 
 # bitweaver core modules - only selectively allow users to access these
-avail|lsces,laetzer|_root
-avail|lsces,laetzer|_bit_install
-avail|lsces,laetzer|_bit_kernel
-avail|lsces,laetzer|_bit_languages
-avail|lsces,laetzer|_bit_liberty
-avail|lsces,laetzer|_bit_storage
-avail|lsces,laetzer|_bit_temp
-avail|lsces,laetzer|_bit_themes
-avail|lsces,laetzer|_bit_users
+avail|lsces,laetzer,bitweaver|_root
+avail|lsces,laetzer,bitweaver|_bit_install
+avail|lsces,laetzer,bitweaver|_bit_kernel
+avail|lsces,laetzer,bitweaver|_bit_languages
+avail|lsces,laetzer,bitweaver|_bit_liberty
+avail|lsces,laetzer,bitweaver|_bit_storage
+avail|lsces,laetzer,bitweaver|_bit_temp
+avail|lsces,laetzer,bitweaver|_bit_themes
+avail|lsces,laetzer,bitweaver|_bit_users
 
 # custom modules in our CVS
 avail|lsces|_bit_irlist
