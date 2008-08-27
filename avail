@@ -16,42 +16,52 @@ avail||_bit_blogs
 avail||_bit_bnspell
 avail||_bit_boards
 avail||_bit_calendar
+avail||_bit_cart
 avail||_bit_cascader
 avail||_bit_categories
 avail||_bit_chatterbox
 avail||_bit_commerce
+avail||_bit_contacts
+avail||_bit_cvsview
+avail||_bit_debug
+avail||_bit_doc
+avail||_bit_events
+avail||_bit_filevault
 avail||_bit_fisheye
 avail||_bit_forums
 avail||_bit_galaxia
 avail||_bit_gallery2
 avail||_bit_gatekeeper
 avail||_bit_geo
+avail||_bit_gigaupload
 avail||_bit_gmap
 avail||_bit_groups
 avail||_bit_hotwords
 avail||_bit_hype
 avail||_bit_icon_styles
 avail||_bit_ilike
-avail||_bit_irlist
 avail||_bit_libertysecure
 avail||_bit_lucene
-avail||_bit_mapper
+avail||_bit_listings
 avail||_bit_messages
+avail||_bit_meta
 avail||_bit_moderation
 avail||_bit_multisites
 avail||_bit_newsletters
 avail||_bit_nexus
 avail||_bit_packager
 avail||_bit_pdf
-avail||_bit_phpgedview
 avail||_bit_pigeonholes
+avail||_bit_polls
 avail||_bit_protector
 avail||_bit_quicktags
 avail||_bit_quota
 avail||_bit_reblog
 avail||_bit_recommends
 avail||_bit_rss
+avail||_bit_sample
 avail||_bit_search
+avail||_bit_sheets
 avail||_bit_shoutbox
 avail||_bit_sitehome
 avail||_bit_smileys
@@ -60,15 +70,19 @@ avail||_bit_stats
 avail||_bit_stencils
 avail||_bit_stickies
 avail||_bit_styles
+avail||_bit_superstars
 avail||_bit_switchboard
 avail||_bit_tags
 avail||_bit_tidbits
 avail||_bit_treasury
+avail||_bit_unit
 avail||_bit_util
 avail||_bit_wiki
 avail||_bit_xmlrpc
+avail||_bit_xupload
 avail||_bit_yellowpages
 avail||_bit_zend
+
 avail||_adodb
 avail||_fckeditor
 avail||_geshi
@@ -97,6 +111,6 @@ avail|lsces|_bit_irlist
 avail|lsces|_bit_mapper
 avail|lsces|_bit_phpgedview
 
-# vim:set ft=conf:
 # leave a trailing blank line so says the docs
+# vim:set ft=conf:
 
