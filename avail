@@ -107,8 +107,10 @@ avail|lsces,laetzer,bitweaver|_bit_themes
 avail|lsces,laetzer,bitweaver|_bit_users
 
 # custom modules in our CVS
+avail|lsces|_bit_citizen
 avail|lsces|_bit_irlist
 avail|lsces|_bit_mapper
+avail|lsces|_bit_nlpg
 avail|lsces|_bit_phpgedview
 
 # leave a trailing blank line so says the docs

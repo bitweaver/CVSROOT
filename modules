@@ -59,14 +59,12 @@ _bit_hype                   -d hype                   _bit_hype
 _bit_icon_styles            -d themes/icon_styles     _bit_icon_styles
 _bit_install                -d install                _bit_install
 _bit_ilike                  -d ilike                  _bit_ilike
-_bit_irlist                 -d irlist                 _bit_irlist
 _bit_kernel                 -d kernel                 _bit_kernel
 _bit_languages              -d languages              _bit_languages
 _bit_liberty                -d liberty                _bit_liberty
 _bit_libertysecure          -d libertysecure          _bit_libertysecure
 _bit_lucene                 -d lucene                 _bit_lucene
 _bit_listings               -d listings               _bit_listings
-_bit_mapper                 -d mapper                 _bit_mapper
 _bit_messages               -d messages               _bit_messages
 _bit_meta                   -d meta                   _bit_meta
 _bit_moderation             -d moderation             _bit_moderation
@@ -75,7 +73,6 @@ _bit_newsletters 			-d newsletters 			  _bit_newsletters
 _bit_nexus                  -d nexus                  _bit_nexus
 _bit_packager               -d packager               _bit_packager
 _bit_pdf                    -d pdf                    _bit_pdf
-_bit_phpgedview             -d phpgedview             _bit_phpgedview
 _bit_pigeonholes            -d pigeonholes            _bit_pigeonholes
 _bit_polls                  -d polls                  _bit_polls
 _bit_protector              -d protector              _bit_protector
@@ -112,6 +109,12 @@ _bit_xupload                -d xupload                _bit_xupload
 _bit_yellowpages            -d yellowpages            _bit_yellowpages
 _bit_zend                   -d zend                   _bit_zend
 
+# lesters stuff
+_bit_citizen                -d citizen                _bit_citizen
+_bit_irlist                 -d irlist                 _bit_irlist
+_bit_mapper                 -d mapper                 _bit_mapper
+_bit_nlpg                   -d nlpg                   _bit_nlpg
+_bit_phpgedview             -d phpgedview             _bit_phpgedview
 
 
 # -=-=-=-=-= themes and styles =-=-=-=-=-
@@ -339,12 +342,13 @@ bitweaverdev _root \
 bitweaverall _root \
 	&_bit_articles \
 	&_bit_blogs \
-	&_bit_boards \
 	&_bit_bnspell \
+	&_bit_boards \
 	&_bit_calendar \
 	&_bit_cascader \
 	&_bit_categories \
 	&_bit_chatterbox \
+	&_bit_citizen \
 	&_bit_commerce \
 	&_bit_contacts \
 	&_bit_cvsview \
@@ -356,8 +360,8 @@ bitweaverall _root \
 	&_bit_galaxia \
 	&_bit_gallery2 \
 	&_bit_gatekeeper \
-	&_bit_gigaupload \
 	&_bit_geo \
+	&_bit_gigaupload \
 	&_bit_gmap \
 	&_bit_groups \
 	&_bit_hotwords \
@@ -377,6 +381,7 @@ bitweaverall _root \
 	&_bit_multisites \
 	&_bit_newsletters \
 	&_bit_nexus \
+	&_bit_nlpg \
 	&_bit_packager \
 	&_bit_pdf \
 	&_bit_phpgedview \
