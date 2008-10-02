@@ -46,7 +46,7 @@ _bit_doc                    -d doc                    _bit_doc
 _bit_events                 -d events                 _bit_events
 _bit_filevault              -d filevault              _bit_filevault
 _bit_fisheye                -d fisheye                _bit_fisheye
-_bit_forums 				-d forums                 _bit_forums
+_bit_forums                 -d forums                 _bit_forums
 _bit_galaxia                -d galaxia                _bit_galaxia
 _bit_gallery2               -d gallery2               _bit_gallery2
 _bit_gatekeeper             -d gatekeeper             _bit_gatekeeper
@@ -67,9 +67,10 @@ _bit_lucene                 -d lucene                 _bit_lucene
 _bit_listings               -d listings               _bit_listings
 _bit_messages               -d messages               _bit_messages
 _bit_meta                   -d meta                   _bit_meta
+_bit_modcomments            -d modcomments            _bit_modcomments
 _bit_moderation             -d moderation             _bit_moderation
 _bit_multisites             -d multisites             _bit_multisites
-_bit_newsletters 			-d newsletters 			  _bit_newsletters
+_bit_newsletters            -d newsletters            _bit_newsletters
 _bit_nexus                  -d nexus                  _bit_nexus
 _bit_packager               -d packager               _bit_packager
 _bit_pdf                    -d pdf                    _bit_pdf
@@ -292,6 +293,7 @@ bitweaverdev _root \
 	&_bit_libertysecure \
 	&_bit_lucene \
 	&_bit_messages \
+	&_bit_modcomments \
 	&_bit_moderation \
 	&_bit_multisites \
 	&_bit_newsletters \
@@ -377,6 +379,7 @@ bitweaverall _root \
 	&_bit_mapper \
 	&_bit_messages \
 	&_bit_meta \
+	&_bit_modcomments \
 	&_bit_moderation \
 	&_bit_multisites \
 	&_bit_newsletters \
