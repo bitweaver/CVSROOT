@@ -96,7 +96,7 @@ avail||_xmlrpc
 avail|lsces|_bit_commerce
 
 # bitweaver core modules - only selectively allow users to access these
-avail|lsces|_root/index.php _root/README.txt _root/favicon.ico.sample _root/bit_setup_inc.php
+avail|lsces|_root/index.php,_root/README.txt,_root/favicon.ico.sample,_root/bit_setup_inc.php
 avail|laetzer,bitweaver|_root
 avail|lsces,laetzer,bitweaver|_bit_install
 avail|lsces,laetzer,bitweaver|_bit_kernel
