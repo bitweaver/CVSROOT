@@ -112,6 +112,7 @@ avail|lsces|_bit_irlist
 avail|lsces|_bit_mapper
 avail|lsces|_bit_nlpg
 avail|lsces|_bit_phpgedview
+avail|lsces|_bit_warehouse
 
 # leave a trailing blank line so says the docs
 # vim:set ft=conf:

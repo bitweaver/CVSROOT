@@ -116,6 +116,7 @@ _bit_irlist                 -d irlist                 _bit_irlist
 _bit_mapper                 -d mapper                 _bit_mapper
 _bit_nlpg                   -d nlpg                   _bit_nlpg
 _bit_phpgedview             -d phpgedview             _bit_phpgedview
+_bit_warehouse              -d warehouse              _bit_warehouse
 
 
 # -=-=-=-=-= themes and styles =-=-=-=-=-
@@ -350,7 +351,6 @@ bitweaverall _root \
 	&_bit_cascader \
 	&_bit_categories \
 	&_bit_chatterbox \
-	&_bit_citizen \
 	&_bit_commerce \
 	&_bit_contacts \
 	&_bit_cvsview \
@@ -370,13 +370,11 @@ bitweaverall _root \
 	&_bit_hype \
 	&_bit_ilike \
 	&_bit_install \
-	&_bit_irlist \
 	&_bit_kernel \
 	&_bit_languages \
 	&_bit_liberty \
 	&_bit_libertysecure \
 	&_bit_lucene \
-	&_bit_mapper \
 	&_bit_messages \
 	&_bit_meta \
 	&_bit_modcomments \
@@ -384,10 +382,8 @@ bitweaverall _root \
 	&_bit_multisites \
 	&_bit_newsletters \
 	&_bit_nexus \
-	&_bit_nlpg \
 	&_bit_packager \
 	&_bit_pdf \
-	&_bit_phpgedview \
 	&_bit_pigeonholes \
 	&_bit_polls \
 	&_bit_protector \
@@ -432,7 +428,13 @@ bitweaverall _root \
 	&_bit_yellowpages \
 	&_fckeditor \
 	&_phpbb \
-	&_tinymce
+	&_tinymce \
+	&_bit_citizen \
+	&_bit_irlist \
+	&_bit_mapper \
+	&_bit_nlpg \
+	&_bit_phpgedview \
+	&_bit_warehouse
 
 #-#-# only the core modules. bitweaver should work with only these present
 bitweavercore _root \
