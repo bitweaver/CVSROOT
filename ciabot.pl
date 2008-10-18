@@ -33,7 +33,7 @@
 #            Note that the last four parameters are optional, you can alternatively
 #            change the defaults below in the configuration section.
 #
-# $Id: ciabot.pl,v 1.3 2008/10/18 17:28:25 squareing Exp $
+# $Id: ciabot.pl,v 1.4 2008/10/18 17:50:54 squareing Exp $
 
 use strict;
 use vars qw ($project $from_email $dest_email $rpc_uri $sendmail $sync_delay
@@ -124,7 +124,7 @@ my @dirfiles;  # This array is mapped to the @dir array and contains files
 # This was inspired by the suggestion in:
 #  http://mail.gnu.org/archive/html/info-cvs/2003-04/msg00267.html
 #
-$" = "\7";
+#$" = "\7";
 
 ### Input data loading
 
@@ -132,7 +132,8 @@ $" = "\7";
 # These arguments are from %s; first the relative path in the repository
 # and then the list of files modified.
 
-@files = split (' ,,,', ($ARGV[0] or ''));
+@files = split (' ', ($ARGV[0] or ''));
+#@files = split (' ,,,', ($ARGV[0] or ''));
 $dir[0] = shift @files or die "$0: no directory specified\n";
 $dirfiles[0] = "@files" or die "$0: no files specified\n";
 
