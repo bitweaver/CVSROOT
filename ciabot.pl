@@ -12,55 +12,68 @@
 # Free Software Foundation.
 #
 # The master location of this file is
-# http://pasky.or.cz/~pasky/dev/cvs/ciabot.pl.
+#   http://pasky.or.cz/~pasky/dev/cvs/ciabot.pl.
+#
+# This version has been modified a bit, and is available on CIA's web site:
+#   http://cia.vc/clients/cvs/ciabot_cvs.pl
 #
 # This program is designed to run from the loginfo CVS administration file. It
 # takes a log message, massaging it and mailing it to the address given below.
 #
 # Its record in the loginfo file should look like:
 #
-#       ALL        $CVSROOT/CVSROOT/ciabot.pl %s $USER project from_email dest_email ignore_regexp
+#     ALL /usr/bin/perl $CVSROOT/CVSROOT/ciabot_cvs.pl %{,,,s} $USER project from_email dest_email ignore_regexp
 #
-# Note that the last four parameters are optional, you can alternatively change
-# the defaults below in the configuration section.
+# IMPORTANT: The %{,,,s} in loginfo is new, and is required for proper operation.
 #
-# If it does not work, try to disable $xml_rpc in the configuration section
-# below.
+#            Make sure that you add the script to 'checkoutlist' before
+#            committing it. You may need to change /usr/bin/perl to point to your
+#            system's perl binary.
 #
-# $Id: ciabot.pl,v 1.2 2006/02/05 14:54:49 spiderr Exp $
+#            Note that the last four parameters are optional, you can alternatively
+#            change the defaults below in the configuration section.
+#
+# $Id: ciabot.pl,v 1.3 2008/10/18 17:28:25 squareing Exp $
 
 use strict;
-use vars qw ($project $from_email $dest_email $rpc_uri @sendmail $sync_delay
+use vars qw ($project $from_email $dest_email $rpc_uri $sendmail $sync_delay
 		$xml_rpc $ignore_regexp $alt_local_message_target);
-
-
 
 
 ### Configuration
 
 # Project name (as known to CIA).
+#
+# NOTE: This shouldn't be a long description of your project. Ideally
+#       it is a short identifier with no spaces, punctuation, or
+#       unnecessary capitalization. This will be used in URLs related
+#       to your project, as an internal identifier, and in IRC messages.
+#       If you want a longer name shown for your project on the web
+#       interface, please use the "title" metadata key rather than
+#       putting that here.
+#
 $project = 'bitweaver';
 
 # The from address in generated mails.
 $from_email = 'spiderr@users.sourceforge.net';
 
 # Mail all reports to this address.
-$dest_email = 'cia@cia.navi.cx';
+$dest_email = 'cia@cia.vc';
 
 # If using XML-RPC, connect to this URI.
-$rpc_uri = 'http://cia.navi.cx/RPC2';
+$rpc_uri = 'http://cia.vc/RPC2';
 
 # Path to your USCD sendmail compatible binary (your mailer daemon created this
 # program somewhere).
-# $sendmail = '/usr/sbin/sendmail';
-@sendmail = ('/usr/lib/sendmail', '/usr/sbin/sendmail', '');
+$sendmail = '/usr/sbin/sendmail';
 
 # Number of seconds to wait for possible concurrent instances. CVS calls up
 # this script for each involved directory separately and this is the sync
 # delay. 5s looks as a safe value, but feel free to increase if you are running
 # this on a slower (or overloaded) machine or if you have really a lot of
 # directories.
-$sync_delay = 5;
+# Increasing this could be a very good idea if you're on Sourceforge ;)
+$sync_delay = 8;
 
 # This script can communicate with CIA either by mail or by an XML-RPC
 # interface. The XML-RPC interface is faster and more efficient, however you
@@ -102,6 +115,16 @@ my @dirfiles;  # This array is mapped to the @dir array and contains files
                # affected in each directory
 
 
+# A nice nonprinting character we can use as a separator relatively safely.
+# The commas in loginfo above give us 4 commas and a space between file
+# names given to us on the command line. This is the separator used internally.
+# Now we can handle filenames containing spaces, and probably anything except
+# strings of 4 commas or the ASCII bell character.
+#
+# This was inspired by the suggestion in:
+#  http://mail.gnu.org/archive/html/info-cvs/2003-04/msg00267.html
+#
+$" = "\7";
 
 ### Input data loading
 
@@ -109,7 +132,7 @@ my @dirfiles;  # This array is mapped to the @dir array and contains files
 # These arguments are from %s; first the relative path in the repository
 # and then the list of files modified.
 
-@files = split (' ', ($ARGV[0] or ''));
+@files = split (' ,,,', ($ARGV[0] or ''));
 $dir[0] = shift @files or die "$0: no directory specified\n";
 $dirfiles[0] = "@files" or die "$0: no files specified\n";
 
@@ -139,6 +162,7 @@ while (<STDIN>) {
   last if /^Log Message/;
 }
 
+$logmsg = "";
 while (<STDIN>) {
   next unless ($_ and $_ ne "\n" and $_ ne "\r\n");
   s/&/&amp;/g;
@@ -147,13 +171,11 @@ while (<STDIN>) {
   $logmsg .= $_;
 }
 
-
-
 ### Remove to-be-ignored files
 
 $dirfiles[0] = join (' ',
   grep {
-    my $f = "$module/$dir[0]/$_";
+    my $f = "$dir[0]/$_";
     $f !~ m/$ignore_regexp/;
   } split (/\s+/, $dirfiles[0])
 ) if ($ignore_regexp);
@@ -166,6 +188,7 @@ exit unless $dirfiles[0];
 my $sum; # _VERY_ simple hash of the log message. It is really weak, but I'm
          # lazy and it's really sorta exceptional to even get more commits
          # running simultanously anyway.
+$sum = 0;
 map { $sum += ord $_ } split(//, $logmsg);
 
 my $syncfile; # Name of the file used for syncing
@@ -213,7 +236,8 @@ if (-f $syncfile and -w $syncfile) {
 ### Compose the mail message
 
 
-my ($VERSION) = '2.0';
+my ($VERSION) = '2.4';
+my ($URL) = 'http://cia.vc/clients/cvs/ciabot_cvs.pl';
 my $ts = time;
 
 $message = <<EM
@@ -221,7 +245,7 @@ $message = <<EM
    <generator>
        <name>CIA Perl client for CVS</name>
        <version>$VERSION</version>
-       <url>http://pasky.or.cz/~pasky/dev/cvs/ciabot.pl</url>
+       <url>$URL</url>
    </generator>
    <source>
        <project>$project</project>
@@ -249,7 +273,7 @@ for (my $dirnum = 0; $dirnum < @dir; $dirnum++) {
     s/</&lt;/g;
     s/>/&gt;/g;
     $message .= "  <file>$_</file>\n";
-  } split(/ /, $dirfiles[$dirnum]);
+  } split($", $dirfiles[$dirnum]);
 }
 
 $message .= <<EM
@@ -302,10 +326,9 @@ if ($xml_rpc) {
 
 
 # Open our mail program
-foreach my $sendmail (@sendmail) {
-	die "$0: cannot fork sendmail: $!\n" unless ($sendmail);
-	open (MAIL, "| $sendmail -t -oi -oem") and last;
-}
+
+open (MAIL, "| $sendmail -t -oi -oem") or die "Cannot execute $sendmail : " . ($?>>8);
+
 
 # The mail header
 
