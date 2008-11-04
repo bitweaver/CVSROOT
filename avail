@@ -6,6 +6,9 @@ unavail
 # some trusted devs can commit anything anywhere
 avail|spiderr,wjames5,squareing,nickpalmer
 
+# pppspoonman added 2008-NOV-04, remove if no commits for 30 days.
+avail|pppspoonman
+
 # Explicitly specify people who have access to CVSROOT
 #avail|<list of users>|CVSROOT
 
