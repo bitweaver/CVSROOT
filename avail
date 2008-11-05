@@ -6,8 +6,11 @@ unavail
 # some trusted devs can commit anything anywhere
 avail|spiderr,wjames5,squareing,nickpalmer
 
-# pppspoonman added 2008-NOV-04, remove if no commits for 30 days.
-avail|pppspoonman
+# list of devs added who are new to bitweaver core commits. these will be
+# removed after 30 days of inactivity.
+# pppspoonman added 2008-NOV-04
+avail|pppspoonman|_root/index.php,_root/README.txt,_root/favicon.ico.sample,_root/bit_setup_inc.php,
+avail|pppspoonman|_bit_install,_bit_kernel,_bit_languages,_bit_liberty,_bit_storage,_bit_temp,_bit_themes,_bit_users
 
 # Explicitly specify people who have access to CVSROOT
 #avail|<list of users>|CVSROOT
@@ -100,8 +103,9 @@ avail||_xmlrpc
 avail|lsces|_bit_commerce
 
 # bitweaver core modules - only selectively allow users to access these
-avail|lsces|_root/index.php,_root/README.txt,_root/favicon.ico.sample,_root/bit_setup_inc.php
-avail|laetzer,bitweaver|_root
+# these people have access to bitweaver regardless of how long they haven't committed
+avail|bitweaver|_root
+avail|lsces,laetzer|_root/index.php,_root/README.txt,_root/favicon.ico.sample,_root/bit_setup_inc.php
 avail|lsces,laetzer,bitweaver|_bit_install
 avail|lsces,laetzer,bitweaver|_bit_kernel
 avail|lsces,laetzer,bitweaver|_bit_languages
