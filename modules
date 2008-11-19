@@ -100,6 +100,7 @@ _bit_switchboard            -d switchboard            _bit_switchboard
 _bit_tags                   -d tags                   _bit_tags
 _bit_temp                   -d temp                   _bit_temp
 _bit_themes                 -d themes                 _bit_themes
+_bit_tickets                -d tickets                _bit_tickets
 _bit_tidbits                -d tidbits                _bit_tidbits
 _bit_treasury               -d treasury               _bit_treasury
 _bit_unit                   -d unit                   _bit_unit
@@ -325,6 +326,7 @@ bitweaverdev _root \
 	&_bit_themes \
 		&_bit_icon_styles \
 		&_bit_styles \
+	&_bit_tickets \
 	&_bit_tidbits \
 	&_bit_treasury \
 	&_bit_users \
@@ -413,6 +415,7 @@ bitweaverall _root \
 	&_bit_themes \
 		&_bit_icon_styles \
 		&_bit_styles \
+	&_bit_tickets \
 	&_bit_tidbits \
 	&_bit_treasury \
 	&_bit_users \
