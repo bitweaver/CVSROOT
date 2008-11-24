@@ -10,8 +10,8 @@ avail|spiderr,wjames5,squareing,nickpalmer
 # removed after 30 days of inactivity.
 # pppspoonman added 2008-NOV-04
 # tekimaki_admin added 2008-NOV-24
-avail|pppspoonman|tekimaki_admin|_root/index.php,_root/README.txt,_root/favicon.ico.sample,_root/bit_setup_inc.php,
-avail|pppspoonman|tekimaki_admin|_bit_install,_bit_kernel,_bit_languages,_bit_liberty,_bit_storage,_bit_temp,_bit_themes,_bit_users
+avail|pppspoonman,tekimaki_admin|_root/index.php,_root/README.txt,_root/favicon.ico.sample,_root/bit_setup_inc.php,
+avail|pppspoonman,tekimaki_admin|_bit_install,_bit_kernel,_bit_languages,_bit_liberty,_bit_storage,_bit_temp,_bit_themes,_bit_users
 
 # Explicitly specify people who have access to CVSROOT
 #avail|<list of users>|CVSROOT
