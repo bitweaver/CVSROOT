@@ -118,6 +118,7 @@ _bit_irlist                 -d irlist                 _bit_irlist
 _bit_mapper                 -d mapper                 _bit_mapper
 _bit_nlpg                   -d nlpg                   _bit_nlpg
 _bit_phpgedview             -d phpgedview             _bit_phpgedview
+_bit_tasks                  -d tasks                  _bit_tasks
 _bit_warehouse              -d warehouse              _bit_warehouse
 
 
@@ -440,6 +441,7 @@ bitweaverall _root \
 	&_bit_mapper \
 	&_bit_nlpg \
 	&_bit_phpgedview \
+	&_bit_tasks \
 	&_bit_warehouse
 
 #-#-# only the core modules. bitweaver should work with only these present
