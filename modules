@@ -245,6 +245,7 @@ bitweaver _root \
 	&_bit_recommends \
 	&_bit_rss \
 	&_bit_search \
+	&_bit_sharethis \
 	&_bit_shoutbox \
 	&_bit_smileys \
 	&_bit_stars \
