@@ -254,6 +254,7 @@ bitweaver _root \
 	&_bit_stencils \
 	&_bit_stickies \
 	&_bit_storage \
+	&_bit_switchboard \
 	&_bit_tags \
 	&_bit_temp \
 	&_bit_themes \
