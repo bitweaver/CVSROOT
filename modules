@@ -134,6 +134,7 @@ _bit_style_basic            -d basic                  _bit_styles/basic
 _bit_style_bitweaver2       -d bitweaver2             _bit_styles/bitweaver2
 _bit_style_blank            -d blank                  _bit_styles/blank
 _bit_style_blue_n_gray      -d blue_n_gray            _bit_styles/blue_n_gray
+_bit_style_blueprint        -d blueprint              _bit_styles/blueprint
 _bit_style_buckyball        -d buckyball              _bit_styles/buckyball
 _bit_style_bwo              -d bwo                    _bit_styles/bwo
 _bit_style_cascader         -d cascader               _bit_styles/cascader
@@ -163,6 +164,7 @@ _bit_style_ygg              -d ygg                    _bit_styles/ygg
 _bit_styles_release -d themes/styles \
 	&_bit_style_basic \
 	&_bit_style_blank \
+	&_bit_style_blueprint \
 	&_bit_style_cascader \
 	&_bit_style_clean \
 	&_bit_style_eclipse \
