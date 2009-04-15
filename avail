@@ -11,8 +11,9 @@ avail|spiderr,wjames5,squareing,nickpalmer
 # pppspoonman    added 2008-NOV
 # tekimaki_admin added 2008-NOV
 # dansut         added 2009-JAN
-avail|pppspoonman,tekimaki_admin,dansut|_root/index.php,_root/README.txt,_root/favicon.ico.sample,_root/bit_setup_inc.php,
-avail|pppspoonman,tekimaki_admin,dansut|_bit_install,_bit_kernel,_bit_languages,_bit_liberty,_bit_storage,_bit_temp,_bit_themes,_bit_users
+# habile		 added 2009-APR by spider
+avail|pppspoonman,tekimaki_admin,dansut,habile|_root/index.php,_root/README.txt,_root/favicon.ico.sample,_root/bit_setup_inc.php,
+avail|pppspoonman,tekimaki_admin,dansut,habile|_bit_install,_bit_kernel,_bit_languages,_bit_liberty,_bit_storage,_bit_temp,_bit_themes,_bit_users
 
 # Explicitly specify people who have access to CVSROOT
 #avail|<list of users>|CVSROOT
