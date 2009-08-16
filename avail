@@ -8,13 +8,14 @@ avail|spiderr,wjames5,squareing,nickpalmer
 
 # list of devs added who are new to bitweaver core commits. these will be
 # removed after 30 days of inactivity.
-# pppspoonman    added 2008-NOV
+# pppspoonman    added 2008-NOV removed 2009-AUG by spider
 # tekimaki_admin added 2008-NOV
 # dansut         added 2009-JAN
 # habile		 added 2009-APR by spider
 # tylerbello	 added 2009-MAR by spider
-avail|pppspoonman,tekimaki_admin,dansut,habile,tylerbello|_root/index.php,_root/README.txt,_root/favicon.ico.sample,_root/bit_setup_inc.php,
-avail|pppspoonman,tekimaki_admin,dansut,habile,tylerbello|_bit_install,_bit_kernel,_bit_languages,_bit_liberty,_bit_storage,_bit_temp,_bit_themes,_bit_users
+# ukgrad89		 added 2009-AUG by spider
+avail|tekimaki_admin,dansut,habile,tylerbello,ukgrad89|_root/index.php,_root/README.txt,_root/favicon.ico.sample,_root/bit_setup_inc.php,
+avail|tekimaki_admin,dansut,habile,tylerbello,ukgrad89|_bit_install,_bit_kernel,_bit_languages,_bit_liberty,_bit_storage,_bit_temp,_bit_themes,_bit_users
 
 # Explicitly specify people who have access to CVSROOT
 #avail|<list of users>|CVSROOT
