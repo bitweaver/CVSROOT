@@ -45,6 +45,7 @@ _bit_cvsview                -d cvsview                _bit_cvsview
 _bit_debug                  -d debug                  _bit_debug
 _bit_doc                    -d doc                    _bit_doc
 _bit_events                 -d events                 _bit_events
+_bit_feed                   -d feed                   _bit_feed
 _bit_filevault              -d filevault              _bit_filevault
 _bit_fisheye                -d fisheye                _bit_fisheye
 _bit_forums                 -d forums                 _bit_forums
