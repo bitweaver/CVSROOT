@@ -101,6 +101,7 @@ _bit_stencils               -d stencils               _bit_stencils
 _bit_stickies               -d stickies               _bit_stickies
 _bit_storage                -d storage                _bit_storage
 _bit_styles                 -d themes/styles          _bit_styles
+_bit_suggestion      		-d suggestions			  _bit_suggestion
 _bit_superstars             -d superstars             _bit_superstars
 _bit_switchboard            -d switchboard            _bit_switchboard
 _bit_tags                   -d tags                   _bit_tags
