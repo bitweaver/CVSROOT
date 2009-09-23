@@ -22,6 +22,7 @@ avail|tekimaki_admin,dansut,habile,tylerbello,ukgrad89|_bit_install,_bit_kernel,
 
 # all bitweaver packages that are not part of core. any bitweaver dev can
 # commit to these
+avail||_bit_address
 avail||_bit_articles
 avail||_bit_blogs
 avail||_bit_bnspell
@@ -54,6 +55,7 @@ avail||_bit_hotwords
 avail||_bit_hype
 avail||_bit_icon_styles
 avail||_bit_ilike
+avail||_bit_libertyform
 avail||_bit_libertysecure
 avail||_bit_lucene
 avail||_bit_listings
@@ -65,6 +67,7 @@ avail||_bit_newsletters
 avail||_bit_nexus
 avail||_bit_packager
 avail||_bit_pdf
+avail||_bit_person
 avail||_bit_pigeonholes
 avail||_bit_polls
 avail||_bit_protector

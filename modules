@@ -29,6 +29,7 @@
 
 # -=-=-=-=-= bitweaver Individual Package modules =-=-=-=-=-
 
+_bit_address                -d address                _bit_address
 _bit_articles               -d articles               _bit_articles
 _bit_blogs                  -d blogs                  _bit_blogs
 _bit_bnspell                -d bnspell                _bit_bnspell
@@ -65,6 +66,7 @@ _bit_install                -d install                _bit_install
 _bit_kernel                 -d kernel                 _bit_kernel
 _bit_languages              -d languages              _bit_languages
 _bit_liberty                -d liberty                _bit_liberty
+_bit_libertyform            -d libertyform            _bit_libertyform
 _bit_libertysecure          -d libertysecure          _bit_libertysecure
 _bit_listings               -d listings               _bit_listings
 _bit_lucene                 -d lucene                 _bit_lucene
@@ -77,6 +79,7 @@ _bit_newsletters            -d newsletters            _bit_newsletters
 _bit_nexus                  -d nexus                  _bit_nexus
 _bit_packager               -d packager               _bit_packager
 _bit_pdf                    -d pdf                    _bit_pdf
+_bit_person                 -d person                 _bit_person
 _bit_pigeonholes            -d pigeonholes            _bit_pigeonholes
 _bit_polls                  -d polls                  _bit_polls
 _bit_protector              -d protector              _bit_protector
