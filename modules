@@ -363,6 +363,7 @@ bitweaverdev _root \
 
 #-#-# All modules that are currently in use or developement
 bitweaverall _root \
+	&_bit_address \
 	&_bit_articles \
 	&_bit_blogs \
 	&_bit_bnspell \
@@ -394,6 +395,7 @@ bitweaverall _root \
 	&_bit_kernel \
 	&_bit_languages \
 	&_bit_liberty \
+	&_bit_libertyform \
 	&_bit_libertysecure \
 	&_bit_lucene \
 	&_bit_messages \
@@ -405,6 +407,7 @@ bitweaverall _root \
 	&_bit_nexus \
 	&_bit_packager \
 	&_bit_pdf \
+	&_bit_person \
 	&_bit_pigeonholes \
 	&_bit_polls \
 	&_bit_protector \
