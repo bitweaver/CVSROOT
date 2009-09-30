@@ -65,6 +65,7 @@ _bit_ilike                  -d ilike                  _bit_ilike
 _bit_install                -d install                _bit_install
 _bit_kernel                 -d kernel                 _bit_kernel
 _bit_languages              -d languages              _bit_languages
+_bit_lcconfig				-d lcconfig				  _bit_lcconfig
 _bit_liberty                -d liberty                _bit_liberty
 _bit_libertyform            -d libertyform            _bit_libertyform
 _bit_libertysecure          -d libertysecure          _bit_libertysecure
@@ -307,6 +308,7 @@ bitweaverdev _root \
 	&_bit_install \
 	&_bit_kernel \
 	&_bit_languages \
+	&_bit_lcconfig \
 	&_bit_liberty \
 	&_bit_libertysecure \
 	&_bit_lucene \
@@ -394,6 +396,7 @@ bitweaverall _root \
 	&_bit_install \
 	&_bit_kernel \
 	&_bit_languages \
+	&_bit_lcconfig \
 	&_bit_liberty \
 	&_bit_libertyform \
 	&_bit_libertysecure \
