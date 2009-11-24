@@ -219,6 +219,8 @@ _jscalendar                 -d util/jscalendar        _jscalendar
 _tinymce                    -d tinymce                _tinymce
 # http://www.fckeditor.net
 _fckeditor                  -d fckeditor              _fckeditor
+# http://www.ckeditor.com
+_ckeditor                  -d ckeditor              _ckeditor
 
 # XML-RPC for PHP
 # licence BSD

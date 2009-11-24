@@ -108,6 +108,7 @@ avail||_bit_yellowpages
 avail||_bit_zend
 
 avail||_adodb
+avail||_ckeditor
 avail||_fckeditor
 avail||_geshi
 avail||_jscalendar
