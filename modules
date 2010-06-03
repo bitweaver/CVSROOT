@@ -63,6 +63,7 @@ _bit_hype                   -d hype                   _bit_hype
 _bit_icon_styles            -d themes/icon_styles     _bit_icon_styles
 _bit_ilike                  -d ilike                  _bit_ilike
 _bit_install                -d install                _bit_install
+_bit_itags                  -d itags                  _bit_itags
 _bit_kernel                 -d kernel                 _bit_kernel
 _bit_languages              -d languages              _bit_languages
 _bit_lcconfig				-d lcconfig				  _bit_lcconfig
@@ -397,6 +398,7 @@ bitweaverall _root \
 	&_bit_hype \
 	&_bit_ilike \
 	&_bit_install \
+	&_bit_itags \
 	&_bit_kernel \
 	&_bit_languages \
 	&_bit_lcconfig \
